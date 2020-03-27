@@ -1,7 +1,7 @@
 {
   "ota_configuration": [
     {
-      "enabled": "false",
+      "enabled": "true",
       "info": "\n\nNew features include: \n- Redesigned volume panel \n- Adaptive playback \n- New gestures\n- Halo? \n\nPerformance improvements are included in this update to make your device blazing fast. This update will take 10-15 minutes to apply."
     }
   ]
