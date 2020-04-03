@@ -3,7 +3,9 @@
     {
       "enabled": "true",
       "whitelist_only": "false",
-      "info": "\n\nNew features include: \n- Redesigned volume panel \n- Adaptive playback \n- New gestures\n- Halo? \n\nPerformance improvements are included in this update to make your device blazing fast. This update will take 10-15 minutes to apply."
+      "info": "This update will install a beta version of Paranoid Android Quartz 1.1 on your device. <br/><br/><b><font color=#FF0000>Caution:</font></b> This pre-release version contains 
+      <b>significant</b> behavior changes that can affect apps, in addition to defects that affect normal functioning of your device. This update includes changes to your device that are not finalized and maybe present 
+      differently once an official update is rolled out. <br/><br/>By downloading and installing this update, you agree to the information above. Be sure provide feedback during beta releases as this helps resolve any issues you may receive."
     }
   ]
 }
