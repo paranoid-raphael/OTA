@@ -1,0 +1,11 @@
+{
+    "changelog": [
+        {
+            "version": "Sapphire",
+            "romtype": "Beta",
+            "number": "1",
+            "id": "2022-05-01-pa-sapphire-beta",
+            "info": "Pocket lock 3 finger swipe screenshot Face-based auto-rotate settings Custom vibration patterns Screen off gestures Adaptive playback (smart pause) Columbus/Double Tap on back (currently broken but still pushed to main org) Volume long press skip track Long press power button for torch Immersive navigation Customizable navigation bar length Linked and unlinked notification, and ringer sound toggle Per app volume control Lockscreen smart space Google bar in launcher dock 3rd party apps themed icons Double tap to sleep Statusbar icon manager Auto brightness icon in QS panel"
+        }
+    ]
+}
