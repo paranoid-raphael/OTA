@@ -5,7 +5,7 @@
             "romtype": "Beta",
             "number": "1",
             "id": "2022-05-01-pa-sapphire-beta",
-            "info": "Pocket lock 3 finger swipe screenshot Face-based auto-rotate settings Custom vibration patterns Screen off gestures Adaptive playback (smart pause) Columbus/Double Tap on back (currently broken but still pushed to main org) Volume long press skip track Long press power button for torch Immersive navigation Customizable navigation bar length Linked and unlinked notification, and ringer sound toggle Per app volume control Lockscreen smart space Google bar in launcher dock 3rd party apps themed icons Double tap to sleep Statusbar icon manager Auto brightness icon in QS panel"
+            "info": "\n\n- Pocket lock \n- 3 finger swipe screenshot \n- Face-based auto-rotate settings \n- Custom vibration patterns \n- Screen off gestures \n- Adaptive playback (smart pause) \n- Columbus/Double Tap on back (currently broken but still pushed to main org) \n- Volume long press skip track \n- Long press power button for torch \n- Immersive navigation \n- Customizable navigation bar length \n- Linked and unlinked notification, and ringer sound toggle \n- Per app volume control \n- Lockscreen smart space \n- Google bar in launcher dock \n- 3rd party apps themed icons \n- Double tap to sleep \n- Statusbar icon manager \n- Auto brightness icon in QS panel"
         }
     ]
 }
