@@ -5,8 +5,8 @@
             "romtype": "Beta",
             "number": "1",
             "id": "2022-05-01-pa-sapphire-beta",
-            "info": "<br/><br/>- Pocket lock <br/>- 3 finger swipe screenshot <br/>- Face-based auto-rotate settings <br/>- Custom vibration patterns <br/>- Screen off gestures <br/>- Adaptive playback (smart pause) <br/>- Columbus/Double Tap on back (currently broken but still pushed to main org) <br/>- Volume long press skip track <br/>- Long press power button for torch <br/>- Immersive navigation <br/>- Customizable navigation bar length <br/>- Linked and unlinked notification, and ringer sound toggle <br/>- Per app volume control <br/>- Lockscreen smart space <br/>- Google bar in launcher dock <br/>- 3rd party apps themed icons <br/>- Double tap to sleep <br/>- Statusbar icon manager <br/>- Auto brightness icon in QS panel"
-            "info_brief": This update adds new features and and stability improvements to your device, as well as fixes critical bugs. <br/>Additional charges may apply when updates are downloaded over cellular network or while roaming.
+            "info": "<br/><br/>- Pocket lock <br/>- 3 finger swipe screenshot <br/>- Face-based auto-rotate settings <br/>- Custom vibration patterns <br/>- Screen off gestures <br/>- Adaptive playback (smart pause) <br/>- Columbus/Double Tap on back (currently broken but still pushed to main org) <br/>- Volume long press skip track <br/>- Long press power button for torch <br/>- Immersive navigation <br/>- Customizable navigation bar length <br/>- Linked and unlinked notification, and ringer sound toggle <br/>- Per app volume control <br/>- Lockscreen smart space <br/>- Google bar in launcher dock <br/>- 3rd party apps themed icons <br/>- Double tap to sleep <br/>- Statusbar icon manager <br/>- Auto brightness icon in QS panel",
+            "info_brief": "This update adds new features and and stability improvements to your device, as well as fixes critical bugs. <br/>Additional charges may apply when updates are downloaded over cellular network or while roaming."
         }
     ]
 }
