@@ -1,0 +1,15 @@
+{
+  "updates": [
+    {
+                  "date": "2022-07-30", 
+                  "datetime": "20220730", 
+                  "filename": "aospa-sapphire-1-raven-unofficial-20220718.zip", 
+                  "url": "https://github.com/Sirhc95/ota_test/releases/download/p6pro-1.0/aospa-sapphire-1-raven-unofficial-20220718.zip", 
+                  "id": "dd724b08ea316889f8a9cee83403fa05", 
+                  "size": "1039354840", 
+                  "romtype": "Beta",
+                  "number" : "1",
+                  "version": "Sapphire"
+    }
+  ]
+}
