@@ -6,23 +6,23 @@
             "number": "1",
             "id": "2022-05-01-pa-sapphire-beta",
             "info": "<li>Pocket lock<br/>
-                     <li>3 finger swipe screenshot<li/><br/>
-                     <li>Face-based auto-rotate settings<li/><br/>
-                     <li>Custom vibration patterns<li/><br/>
-                     <li>Screen off gestures<li/><br/>
-                     <li>Adaptive playback (smart pause)<li/><br/>
-                     <li>Columbus/Double Tap on back (currently broken but still pushed to main org)<li/><br/>
-                     <li>Volume long press skip track<li/><br/>
-                     <li>Long press power button for torch<li/><br/>
-                     <li>Immersive navigation<li/><br/>
-                     <li>Customizable navigation bar length<li/><br/>
-                     <li>Linked and unlinked notification, and ringer sound toggle<li/><br/>
-                     <li>Per app volume control<li/><br/>
-                     <li>Lockscreen smart space<li/><br/>
-                     <li>Google bar in launcher dock<li/><br/>
-                     <li>3rd party apps themed icons<li/><br/>
-                     <li>Double tap to sleep<li/><br/>
-                     <li>Statusbar icon manager<li/><br/>
+                     <li>3 finger swipe screenshot<li/>
+                     <li>Face-based auto-rotate settings<li/>
+                     <li>Custom vibration patterns<li/>
+                     <li>Screen off gestures<li/>
+                     <li>Adaptive playback (smart pause)<li/>
+                     <li>Columbus/Double Tap on back (currently broken but still pushed to main org)<li/>
+                     <li>Volume long press skip track<li/>
+                     <li>Long press power button for torch<li/>
+                     <li>Immersive navigation<li/>
+                     <li>Customizable navigation bar length<li/>
+                     <li>Linked and unlinked notification, and ringer sound toggle<li/>
+                     <li>Per app volume control<li/>
+                     <li>Lockscreen smart space<li/>
+                     <li>Google bar in launcher dock<li/>
+                     <li>3rd party apps themed icons<li/>
+                     <li>Double tap to sleep<li/>
+                     <li>Statusbar icon manager<li/>
                      <li>Auto brightness icon in QS panel<li/>",
             "info_brief": "This update adds new features, stability improvements, as well as fixes critical bugs. You can find more information about this update by tapping below or visiting <b>paranoidandroid.co/changelog<b/>"
         }
