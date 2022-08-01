@@ -1,0 +1,39 @@
+name: OTA
+
+on:
+  workflow_dispatch:
+    inputs:
+        DL_LINK:
+          description: "Link of the OTA package to upload:"
+          required: true
+  
+defaults:
+    run:
+      shell: bash
+
+env:   
+  DEVICE: "raphael"
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+ 
+  DOWNLOAD_LINK: ${{ github.event.inputs.DL_LINK }}
+
+  # Temp (Download) Directory
+  TMP_DIR: /tmp/ota
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkouts
+        uses: actions/checkout@v2
+
+      - name: Downloading Build
+        run: |
+          bash download.sh
+          
+      - name: Uploading Build
+        run: |
+          gh release delete $DEVICE
+          gh release create $DEVICE
+          gh release upload --clobber $DEVICE ${TMP_DIR}/*
