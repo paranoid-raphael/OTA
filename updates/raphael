@@ -1,0 +1,15 @@
+{
+  "updates": [
+    {
+                  "date": "2022-08-02", 
+                  "datetime": "20220802", 
+                  "filename": "aospa-sapphire-1-raphael-release-20220802.zip", 
+                  "url": "https://downloads.sourceforge.net/project/alchemist-roms/Raphael/TEST/aospa-sapphire-1-raphael-release-20220802.zip?ts=gAAAAABi6FZFK9uFJTJtdSEnGnKDKHfT76fzh4_6m_ItW0GUfX062NwCYNIzjAcIsu8NNOy8E0QlDZ2kU4qfXHH46ynmMvQJEA%3D%3D&use_mirror=master&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Falchemist-roms%2Ffiles%2FRaphael%2FTEST%2F", 
+                  "id": "cc825ddc0caf93452dac0c2fc4f80363", 
+                  "size": "1825285758", 
+                  "romtype": "Release",
+                  "number" : "1",
+                  "version": "Sapphire"
+    }
+  ]
+}
