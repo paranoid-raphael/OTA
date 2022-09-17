@@ -3,19 +3,23 @@ name: OTA
 on:
   workflow_dispatch:
     inputs:
-        DL_LINK:
+        DEVICE_CODENAME:
+          description: "Device code name"
+          required: true
+          default: "raphael"
+
+        DOWNLOAD_LINK:
           description: "Link of the OTA package to upload:"
           required: true
-  
+
 defaults:
     run:
       shell: bash
 
-env:   
-  DEVICE: "raphael"
+env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
- 
-  DOWNLOAD_LINK: ${{ github.event.inputs.DL_LINK }}
+  DEVICE_CODENAME: ${{ github.event.inputs.DEVICE_CODENAME }}
+  DOWNLOAD_LINK: ${{ github.event.inputs.DOWNLOAD_LINK }}
 
   # Temp (Download) Directory
   TMP_DIR: /tmp/ota
@@ -28,12 +32,18 @@ jobs:
       - name: Checkouts
         uses: actions/checkout@v2
 
-      - name: Downloading Build
+      - name: Download
         run: |
           bash download.sh
-          
-      - name: Uploading Build
+
+      - name: Update
         run: |
-          gh release delete $DEVICE
-          gh release create $DEVICE
-          gh release upload --clobber $DEVICE ${TMP_DIR}/*
+          git tag --force ${{ env.DEVICE_CODENAME }}
+          git push --force origin tag ${{ env.DEVICE_CODENAME }}
+
+      - name: Upload
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.DEVICE_CODENAME }}
+          files: ${TMP_DIR}/*
+ 
