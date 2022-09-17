@@ -42,8 +42,6 @@ jobs:
           git push --force origin tag ${{ env.DEVICE_CODENAME }}
 
       - name: Upload
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ env.DEVICE_CODENAME }}
-          files: ${TMP_DIR}/*
- 
+        run: |
+          gh release create ${{ env.DEVICE_CODENAME }}
+          gh release upload --clobber ${{ env.DEVICE_CODENAME }} ${TMP_DIR}/*
