@@ -43,6 +43,4 @@ jobs:
 
       - name: Upload
         run: |
-          gh release delete ${{ env.DEVICE_CODENAME }}
-          gh release create ${{ env.DEVICE_CODENAME }}
           gh release upload --clobber ${{ env.DEVICE_CODENAME }} ${TMP_DIR}/*
