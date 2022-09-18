@@ -1,0 +1,42 @@
+name: OTA
+
+on:
+  workflow_dispatch:
+    inputs:
+        DEVICE_CODENAME:
+          description: "Device code name"
+          required: true
+          default: "raphael"
+
+        DOWNLOAD_LINK:
+          description: "Link of the OTA package to upload:"
+          required: true
+
+defaults:
+    run:
+      shell: bash
+
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  DEVICE_CODENAME: ${{ github.event.inputs.DEVICE_CODENAME }}
+  DOWNLOAD_LINK: ${{ github.event.inputs.DOWNLOAD_LINK }}
+
+  # Temp (Download) Directory
+  TMP_DIR: /tmp/ota
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkouts
+        uses: actions/checkout@v2
+
+      - name: Download
+        run: |
+          bash download.sh
+      - name: Upload
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.DEVICE_CODENAME }}
+          files: ${{ env.TMP_DIR }}/*.zip
