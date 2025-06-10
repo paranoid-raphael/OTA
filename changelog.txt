@@ -1,0 +1,93 @@
+====================
+     2025-06-10    
+====================
+* hardware/lineage/interfaces
+f568995 health: Fix typo in FastCharge [Thomas Turner]
+
+====================
+     2025-06-09    
+====================
+* hardware/qcom-caf/sm8450/audio/pal
+4d950a5 pal: Parse LVACFS microphone feature parameter [pjgowtham]
+
+* packages/apps/LineageParts
+3e43b47 LineageParts: Switch to ListPreference for Network Traffic settings [HeroBuxx]
+
+* vendor/lineage
+101451f lineage: products: Add Cuttlefish products [Yumi Yukimura]
+
+====================
+     2025-06-08    
+====================
+* lineage/wiki
+77fc06e wiki: Specify that laurel_sprout ships firmware [Skyblueborb]
+
+====================
+     2025-06-07    
+====================
+* art
+026b9bd Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+* device/qcom/sepolicy_vndr/legacy-um
+81b4a3f sepolicy: trinket: Label odm partitions for fastbootd [Skyblueborb]
+
+* frameworks/av
+4d36097 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+* frameworks/base
+3b9065901 fixup! Keyguard: Add option to scramble pin layout when unlocking (2/2). [Tommy Webb]
+
+* hardware/google/pixel
+2b38ba6 touch: Migrate to AIDL [Bruno Martins]
+
+* hardware/google/pixel-sepolicy
+bb25323 touch: Migrate to AIDL [Michael Bestas]
+
+* hardware/qcom-caf/sm8450/audio/primary-hal
+659f51d hal: Add LVACFS microphone feature [pjgowtham]
+
+* lineage-sdk
+b1685ba sdk: Register network callback only if it is enabled. [althafvly]
+
+* lineage/hudson
+e7bcb93 Replanting the ancient Ginkgo biloba [Skyblueborb]
+
+* packages/apps/ManagedProvisioning
+8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+* packages/apps/Settings
+f56c4c4 New string for "Hotspot VPN" feature [Chirayu Desai]
+
+* packages/modules/Bluetooth
+081fe1e Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+* packages/modules/Connectivity
+42f7754 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+* packages/modules/Permission
+df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+
+====================
+     2025-06-06    
+====================
+* device/lineage/sepolicy
+f131c06 sepolicy: Support Touch AIDL [Bruno Martins]
+
+* packages/apps/Twelve
+6ed5659 Twelve: Fix hashed token authentication for Subsonic [Robin Slot]
+
+====================
+     2025-06-05    
+====================
+* packages/apps/Gallery2
+c17bdc2 Gallery2: Change harcoded toast string to a resource [Inhishonor]
+
+====================
+     2025-06-04    
+====================
+* android
+dd7da33 manifest: June 2025 Security Update [Michael Bestas]
+
+* build/release
+c799ee4 Bump Security String to 2025-06-01 [Michael Bestas]
+

@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1749551098,
+      "filename": "lineage-22.2-20250610-UNOFFICIAL-raphael.zip",
+      "id": "a3fd0cf7f01180a8a07e6243c52a60e97780fb2291c718bbd8c3ad2b12765792",
+      "romtype": "UNOFFICIAL",
+      "size": 1305835685,
+      "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-raphael-a3fd0cf7/lineage-22.2-20250610-UNOFFICIAL-raphael.zip",
+      "version": "22.2"
+    }
+  ]
+}
