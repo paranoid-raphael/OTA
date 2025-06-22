@@ -1,157 +1,63 @@
 ====================
-     2025-06-13    
+     2025-06-22    
 ====================
 * device/xiaomi/raphael
-79fb3e6 raphael: Add LineageOS OTA overlay [armdebug]
-758e3d1 tmp [armdebug]
-cc526fe raphael: Import qdcm calibration configs to device tree [armdebug]
-3a400a7 raphael: Redo statusbar padding overlays [armdebug]
-7bb37a6 raphael: Kang brigtness overlays from google bramble and adapt for raphael [armdebug]
-6bdc5a7 raphael: Support UDFPS on AoD [Cosmin Tanislav]
-a5cab4a raphael: Update deprecated screen power items [Georg Veichtlbauer]
-b9f3bc6 raphael: Update power profile to match framework change [Alessandro Astone]
-01cdcf2 raphael: Sync power profile with stock - From raphael-user 11 RKQ1.200826.002 V12.5.2.0.RFKMIXM release-key [armdebug]
-5b1b5bf raphael: Set light capabilities [armdebug]
+87ce701 raphael: Add LineageOS OTA overlay [armdebug]
+fe4878a tmp [armdebug]
+a9681a3 raphael: Import qdcm calibration configs to device tree [armdebug]
+81ad859 raphael: Redo statusbar padding overlays [armdebug]
+9ffa494 raphael: Kang brigtness overlays from google bramble and adapt for raphael [armdebug]
+a92af7e raphael: Support UDFPS on AoD [Cosmin Tanislav]
 
 * device/xiaomi/sm8150-common
-95e8966 sm8150-common: sepolicy: Label extcon_usb1 nodes [Bruno Martins]
-3044826 sm8150-common: Update IR guards [armdebug]
-65c1cd2 sm8150-common: Build UDFPS sensors sub-HAL [Ivan Vecera]
+0d33121a sm8150-common: Build libqti_vndfwk_detect.vendor [LuK1337]
+a4dea5a5 sm8150-common: parts: Convert to SwitchPreferenceCompat [Michael Bestas]
+c1f78ea0 sm8150-common: Build QTI Thermal AIDL HAL [Yumi Yukimura]
+1422d609 sm8150-common: Declare WiFi Aware support to WiFi HAL [Etan Cohen]
+c4c257bd sm8150-common: Update CarrierConfig from nabu OS1.0.6.0.TKXMIXM [armdebug]
 
-====================
-     2025-06-12    
-====================
-* device/xiaomi/raphael
-74e3083 raphael: Convert overlays to RRO [Sebastiano Barezzi]
-
-* device/xiaomi/sm8150-common
-26abea3 sm8150-common: sepolicy: Fix parts LED denials [armdebug]
-d074ff9 sm8150-common: Move some RIL properties around [armdebug]
-64e4ec5 sm8150-common: Update blobs from OS1.0.6.0.TKXMIXM [armdebug]
-f973d44 sm8150-common: sepolicy: Remove Xiaomi light HAL label [armdebug]
-36fa408 sm8150-common: Convert overlays to RRO [Sebastiano Barezzi]
-d90b661 sm8150-common: Build gralloc.qcom [LuK1337]
-d0312e1 sm8150-common: Build xiaomi-telephony-stub [danielml]
-2d448f6 sm8150-common: Revert "Kang IMS apk from renoir" [armdebug]
-
-* lineage/hudson
-1f09181 hudson: guam: Update variants [Deivid21]
-
-* lineage/wiki
-16ba4e2 wiki: guam: Update variants [Deivid21]
-
-* packages/apps/LineageParts
-51613a8 LineageParts: implement search button play/pause [Cosmin Tanislav]
-
-====================
-     2025-06-11    
-====================
 * frameworks/base
-a8e396d57 PhoneWindowManager: implement search button play/pause [Cosmin Tanislav]
-
-* lineage-sdk
-4c5cc95 lineage-sdk: implement search button play/pause [Cosmin Tanislav]
-
-* lineage/mirror
-aad72dc aosp-minimal: Baklava [Chirayu Desai]
-
-* vendor/lineage
-49cbf62 merge_dtbs: ignore not matching DTBOs when finding symbols for a fixup [Cosmin Tanislav]
-
-====================
-     2025-06-10    
-====================
-* device/xiaomi/raphael
-127460b fixup! raphael: overlay: Move UDFPS enroll radius to settings [armdebug]
-dea43dd raphael: overlay: Configure physical buttons/fingerprint location [Arian]
-
-* device/xiaomi/sm8150-common
-afebe29 sm8150-common: Switch to full IWLAN mode [Adithya R]
-
-* external/chromium-webview/prebuilt/arm
-1cdf79d Update Chromium Webview arm to 137.0.7151.72 [Kevin F. Haggerty]
-
-* external/chromium-webview/prebuilt/arm64
-f8bab97 Update Chromium Webview arm64 to 137.0.7151.72 [Kevin F. Haggerty]
-
-* external/chromium-webview/prebuilt/x86
-eba5d0e Update Chromium Webview x86 to 137.0.7151.72 [Kevin F. Haggerty]
-
-* external/chromium-webview/prebuilt/x86_64
-d71e61c Update Chromium Webview x86_64 to 137.0.7151.72 [Kevin F. Haggerty]
-
-* hardware/lineage/interfaces
-f568995 health: Fix typo in FastCharge [Thomas Turner]
-
-* hardware/qcom-caf/common
-7d3f8e2 common: Pass TARGET_BOARD_PLATFORM as a kernel flag [chandu078]
-
-====================
-     2025-06-09    
-====================
-* device/xiaomi/raphael
-3b1d66c raphael: Move to Xiaomi fingerprint AIDL [basamaryan]
-c2c981b raphael: overlay: Update pixel pitch [Beverly]
-20eea32 raphael: overlay: Drop old config_udfps_illumination_transition_ms [Arian]
-
-* device/xiaomi/sm8150-common
-df0b8e9 sm8150-common: sepolicy: Label the missing IMiFxTunnel [Cosmin Tanislav]
-
-* external/chromium-webview/patches
-85e1f86 Update Chromium Webview to 137.0.7151.72 [Kevin F. Haggerty]
-
-* hardware/qcom-caf/sm8450/audio/pal
-4d950a5 pal: Parse LVACFS microphone feature parameter [pjgowtham]
-
-* lineage/scripts
-c55758c build-webview: Update default webview to 137.0.7151.72 [Kevin F. Haggerty]
-
-====================
-     2025-06-08    
-====================
-* device/xiaomi/raphael
-2ad2972 raphael: Enable elfchecks for libgrallocutils [LuK1337]
-bb53150 raphael: Adjust override prop key names [LuK1337]
-
-* device/xiaomi/sm8150-common
-ae5527e sm8150-common: switch to common AIDL IR service [Hridaya Prajapati]
-
-====================
-     2025-06-07    
-====================
-* art
-026b9bd Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
-
-* device/lineage/sepolicy
-f131c06 sepolicy: Support Touch AIDL [Bruno Martins]
-
-* device/qcom/sepolicy_vndr/legacy-um
-81b4a3f sepolicy: trinket: Label odm partitions for fastbootd [Skyblueborb]
-
-* frameworks/av
-4d36097 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
-
-* hardware/google/pixel
-2b38ba6 touch: Migrate to AIDL [Bruno Martins]
-
-* hardware/google/pixel-sepolicy
-bb25323 touch: Migrate to AIDL [Michael Bestas]
-
-* hardware/qcom-caf/sm8450/audio/primary-hal
-659f51d hal: Add LVACFS microphone feature [pjgowtham]
-
-* packages/apps/ManagedProvisioning
-8082671 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+51b4033ae base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
 * packages/apps/Settings
-f56c4c4 New string for "Hotspot VPN" feature [Chirayu Desai]
+051b033613e Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
-* packages/modules/Bluetooth
-081fe1e Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+====================
+     2025-06-21    
+====================
+====================
+     2025-06-20    
+====================
+* lineage/wiki
+3904ae6 devices: Label Nokia devices shipping firmware [Tuan Anh]
 
-* packages/modules/Connectivity
-42f7754 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+====================
+     2025-06-19    
+====================
+* external/htop
+35db544 htop: remove "-pedantic" [Skyblueborb]
 
-* packages/modules/Permission
-df15d74 Merge tag 'android-security-15.0.0_r9' into lineage-22.2 [Michael Bestas]
+* hardware/st/nfc
+a25c5e1 Also handle 'REM CONFIG' for text FW configs [Alexander Koskovich]
+
+* vendor/qcom/opensource/dataservices
+74ea427 datatop: Drop -pedantic [basamaryan]
+
+====================
+     2025-06-18    
+====================
+====================
+     2025-06-17    
+====================
+* lineage-sdk
+987c5b8 Android.bp: use defaults and file groups [Alexander Martinz]
+
+====================
+     2025-06-16    
+====================
+* hardware/qcom-caf/sm8450/display
+3559c46 sdm: mark FOD pressed layer by setting a bit on ZPOS [Demon000]
+
+* packages/apps/Contacts
+15fd96e Revert "Add README with details about the status of support for this app" [Michael Bestas]
 
