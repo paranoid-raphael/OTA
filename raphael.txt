@@ -1,0 +1,114 @@
+====================
+     2025-07-02    
+====================
+* device/qcom/sepolicy_vndr/legacy-um
+71c0560 sepolicy: bengal: Label an additional UFS discard_max_bytes node [Nolen Johnson]
+
+* device/xiaomi/raphael
+372adbf raphael: qdcm: Rework calibration profiles [kondors1995]
+61aca3d raphael: Import qdcm calibration configs to device tree [armdebug]
+7b6163d raphael: Redo statusbar padding overlays [armdebug]
+d66236c raphael: Kang brigtness overlays from google bramble and adapt for raphael [armdebug]
+550098c raphael: Support UDFPS on AoD [Cosmin Tanislav]
+4039c02 raphael: ApertureOverlayDevice: Allow camera ID 2 for Aperture [armdebug]
+4faff28 raphael: Update deprecated screen power items [Georg Veichtlbauer]
+4d72ea0 raphael: Update power profile to match framework change [Alessandro Astone]
+8fa3b1e raphael: Sync power profile with stock - From raphael-user 11 RKQ1.200826.002 V12.5.2.0.RFKMIXM release-key [armdebug]
+6f900aa raphael: Set light capabilities [armdebug]
+
+* device/xiaomi/sm8150-common
+5dfd50f0 [DNM] sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
+de29b7a0 Revert "sm8150-common: Include vendor/debugfs.config" [Arian]
+
+* frameworks/base
+7792f7bc3 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+
+* lineage/wiki
+c9305e5 wiki: Improve navbar with new links [Inhishonor]
+
+* packages/apps/Settings
+2b9c0bad82c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+
+* vendor/extra
+f87587b Update OTA links [armdebug]
+
+* vendor/xiaomi/sm8150-common
+69dbc76 fixup! sm8150-common: Enable ELF checks for libwpa_client dependent libs [armdebug]
+
+====================
+     2025-07-01    
+====================
+* hardware/qcom-caf/common
+88e8a17 common: Add compatibility matrix for AIDL-only devices [dianlujitao]
+
+* hardware/qcom-caf/sm8250/audio
+e408116 hal: audio_extn: Add argument to pthread routines [danielml]
+
+* packages/apps/FMRadio
+8329d13 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Jelly
+c90a982 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Settings
+ecfdb90350b Automatic translation import [LineageOS Infra]
+
+* packages/apps/Twelve
+77df6b0 Twelve: Jellyfin: Use parent album thumbnail if available for items [Luca Stefani]
+
+* packages/inputmethods/LatinIME
+ee7f59c Automatic translation import [LineageOS Infra]
+
+* tools/extract-utils
+b0a46c1 extract-utils: Apply relative path for apps with deep folder structures [Jyotiraditya Panda]
+
+====================
+     2025-06-30    
+====================
+* hardware/qcom-caf/sm8350/audio
+9e24e3a hal: audio_extn: Add argument to pthread routines [danielml]
+
+* lineage/hudson
+7e1d754 Nubia (/ˈnjuːbiə/) is a region along the Nile river encompassing the area between the confluence of the Blue and White Niles. [Andrey Sprynga]
+
+* lineage/scripts
+ae6c17a lineage-priv-template: Add Android 16 keys [LuK1337]
+
+* vendor/lineage
+c7a39d5 apn: Update China Telecom for MCC 460 MNC 11 [Marc Bourgoin]
+
+====================
+     2025-06-29    
+====================
+* device/xiaomi/sm8150-common
+412e04ef fixup! sm8150-common: Enable ELF checks for libwpa_client dependent libs [armdebug]
+75e72fa0 sm8150-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes [Michael Bestas]
+
+* hardware/lineage/compat
+6cc7892 compat: Run bpfix [basamaryan]
+
+====================
+     2025-06-28    
+====================
+* kernel/xiaomi/sm8150
+65b059fa215e fix [armdebug]
+c5d8c482b50f fix [armdebug]
+
+* lineage/mirror
+dd1dd8a Updated to 27-Jun-2025 22:01 UTC [Tim Schumacher]
+
+====================
+     2025-06-27    
+====================
+* device/generic/goldfish
+7c7fcd2 goldfish: Remove NavigationBarMode2ButtonOverlay [althafvly]
+
+* packages/apps/ThemePicker
+30eba5b ThemePicker: default to TONAL_SPOT for invalid Styles [Cosmin Tanislav]
+
+====================
+     2025-06-26    
+====================
+* external/nano
+690d0ae nano: Regenerate config.h [LuK1337]
+
