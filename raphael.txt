@@ -1,114 +1,73 @@
 ====================
-     2025-07-02    
+     2025-07-15    
 ====================
-* device/qcom/sepolicy_vndr/legacy-um
-71c0560 sepolicy: bengal: Label an additional UFS discard_max_bytes node [Nolen Johnson]
-
-* device/xiaomi/raphael
-372adbf raphael: qdcm: Rework calibration profiles [kondors1995]
-61aca3d raphael: Import qdcm calibration configs to device tree [armdebug]
-7b6163d raphael: Redo statusbar padding overlays [armdebug]
-d66236c raphael: Kang brigtness overlays from google bramble and adapt for raphael [armdebug]
-550098c raphael: Support UDFPS on AoD [Cosmin Tanislav]
-4039c02 raphael: ApertureOverlayDevice: Allow camera ID 2 for Aperture [armdebug]
-4faff28 raphael: Update deprecated screen power items [Georg Veichtlbauer]
-4d72ea0 raphael: Update power profile to match framework change [Alessandro Astone]
-8fa3b1e raphael: Sync power profile with stock - From raphael-user 11 RKQ1.200826.002 V12.5.2.0.RFKMIXM release-key [armdebug]
-6f900aa raphael: Set light capabilities [armdebug]
-
 * device/xiaomi/sm8150-common
-5dfd50f0 [DNM] sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
-de29b7a0 Revert "sm8150-common: Include vendor/debugfs.config" [Arian]
+70d7ed67 sm8150-common: Remove duplicate sysfs_wakeup labels [penglezos]
 
 * frameworks/base
-7792f7bc3 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+10034d168 SystemUI: Add tile to show volume panel [stofstik]
+77e15965a base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+
+* kernel/xiaomi/sm8150
+dfcc2ba688ff input: tp_goodix_driver: Disable goodix debug [armdebug]
+16f089189839 fixup! thermal: core: Workaround for xiaomi thermal mitigation [armdebug]
+53676b2a25d1 input: tp_goodix_driver: Notify sysfs when finger is in FOD area [Ivan Vecera]
+a6866f9695e0 input: tp_goodix_driver: Update aod_status [Ivan Vecera]
+edcb848b2572 input: tp_goodix_driver: Do not handle impossible fod_status values [Ivan Vecera]
+1c4c42c7e82c drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
+67722948d06d thermal: core: Workaround for xiaomi thermal mitigation [Raphiel Rollerscaperers]
+afe7a2851665 drm: msm: Add support for backlight remap [Arian]
+99a9934bf153 drm: msm: dsi-staging: Fix brightness level mapping [Adrian Salido]
+ae2276a67a3b drivers: input: misc: xiaomi_keyboard: Enable by default [Sebastiano Barezzi]
+7af94006cda8 drivers: hid: hid-xiaomi: Drop touchpad reporting [Sebastiano Barezzi]
+8995a0004009 drivers: hid: Implement keyboard driver [Sebastiano Barezzi]
+59d68c5ce413 drivers: gpu: dsi-staging: Disable dynamic fps and set refresh rate to 104 [map220v]
+e33192f4b06a arch: arm64: configs: xiaomi: Enable CONFIG_INITRAMFS_IGNORE_SKIP_FLAG [Sebastiano Barezzi]
+97b2bd4c1034 init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG [Sebastiano Barezzi]
+abdae3babc67 arch: arm64: boot: dts: xiaomi: Move to 2si [Sebastiano Barezzi]
+cc1afa19d8c9 arch: arm64: configs: xiaomi: Enable device-specific drivers [Sebastiano Barezzi]
+d904df00df4d techpack: audio: asoc: codecs: tfa98xx: Make it compile without debugfs [Sebastiano Barezzi]
+1cd4b268ae13 techpack: audio: Import Xiaomi changes [Sebastiano Barezzi]
+
+* packages/apps/Settings
+8eb727402ab Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+
+====================
+     2025-07-14    
+====================
+====================
+     2025-07-13    
+====================
+* lineage/hudson
+bdc1867 Nuwa mends the sky [SkyMinus]
+
+* system/core
+a57bd44 init: add a hook before parsing system properties [dianlujitao]
+
+====================
+     2025-07-12    
+====================
+* lineage/mirror
+477c6dd Updated to 11-Jul-2025 22:01 UTC [Tim Schumacher]
 
 * lineage/wiki
-c9305e5 wiki: Improve navbar with new links [Inhishonor]
-
-* packages/apps/Settings
-2b9c0bad82c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
-
-* vendor/extra
-f87587b Update OTA links [armdebug]
-
-* vendor/xiaomi/sm8150-common
-69dbc76 fixup! sm8150-common: Enable ELF checks for libwpa_client dependent libs [armdebug]
+fd4120b wiki: Add Xiaomi 13 Pro (nuwa) [SkyMinus]
 
 ====================
-     2025-07-01    
+     2025-07-11    
 ====================
-* hardware/qcom-caf/common
-88e8a17 common: Add compatibility matrix for AIDL-only devices [dianlujitao]
-
-* hardware/qcom-caf/sm8250/audio
-e408116 hal: audio_extn: Add argument to pthread routines [danielml]
-
-* packages/apps/FMRadio
-8329d13 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Jelly
-c90a982 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Settings
-ecfdb90350b Automatic translation import [LineageOS Infra]
-
-* packages/apps/Twelve
-77df6b0 Twelve: Jellyfin: Use parent album thumbnail if available for items [Luca Stefani]
-
-* packages/inputmethods/LatinIME
-ee7f59c Automatic translation import [LineageOS Infra]
-
-* tools/extract-utils
-b0a46c1 extract-utils: Apply relative path for apps with deep folder structures [Jyotiraditya Panda]
-
 ====================
-     2025-06-30    
+     2025-07-10    
 ====================
-* hardware/qcom-caf/sm8350/audio
-9e24e3a hal: audio_extn: Add argument to pthread routines [danielml]
-
-* lineage/hudson
-7e1d754 Nubia (/ˈnjuːbiə/) is a region along the Nile river encompassing the area between the confluence of the Blue and White Niles. [Andrey Sprynga]
-
-* lineage/scripts
-ae6c17a lineage-priv-template: Add Android 16 keys [LuK1337]
+* build/release
+80d2b3a Bump Security String to 2025-07-01 [Michael Bestas]
 
 * vendor/lineage
-c7a39d5 apn: Update China Telecom for MCC 460 MNC 11 [Marc Bourgoin]
+2806ce8 vars: Update qcom tags [Michael Bestas]
 
 ====================
-     2025-06-29    
+     2025-07-09    
 ====================
-* device/xiaomi/sm8150-common
-412e04ef fixup! sm8150-common: Enable ELF checks for libwpa_client dependent libs [armdebug]
-75e72fa0 sm8150-common: Remove deprecated config_mobile_tcp_buffers/networkAttributes [Michael Bestas]
-
-* hardware/lineage/compat
-6cc7892 compat: Run bpfix [basamaryan]
-
-====================
-     2025-06-28    
-====================
-* kernel/xiaomi/sm8150
-65b059fa215e fix [armdebug]
-c5d8c482b50f fix [armdebug]
-
-* lineage/mirror
-dd1dd8a Updated to 27-Jun-2025 22:01 UTC [Tim Schumacher]
-
-====================
-     2025-06-27    
-====================
-* device/generic/goldfish
-7c7fcd2 goldfish: Remove NavigationBarMode2ButtonOverlay [althafvly]
-
-* packages/apps/ThemePicker
-30eba5b ThemePicker: default to TONAL_SPOT for invalid Styles [Cosmin Tanislav]
-
-====================
-     2025-06-26    
-====================
-* external/nano
-690d0ae nano: Regenerate config.h [LuK1337]
+* device/qcom/sepolicy_vndr/sm8450
+f8d3dac taro: Label additional read_ahead_kb node [Nolen Johnson]
 
