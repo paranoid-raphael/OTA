@@ -1,133 +1,39 @@
 ====================
+     2025-07-27    
+====================
+* device/xiaomi/sm8150-common
+825db149 sm8150-common: sepolicy: Address some property denials [armdebug]
+6868c91c sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
+b872d29c sm8150-common: Add missing CACert manifest entry [armdebug]
+
+* kernel/xiaomi/sm8150
+d7c0016d36b9 techpack: audio: Fix broken preprocessor guards in techpack import [armdebug]
+4928c0b11d93 arch: arm64: configs: xiaomi: Decommonize vayu audio codec [armdebug]
+752e21199508 Merge remote-tracking branch 'sm8150/lineage-20' into lineage-22.2 [armdebug]
+
+====================
+     2025-07-26    
+====================
+====================
+     2025-07-25    
+====================
+====================
+     2025-07-24    
+====================
+* hardware/qcom-caf/thermal-legacy-um
+4da393c thermal-hal: Revert "Add tsens,bcl configuration for kona" [armdebug]
+45aa40e thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
+
+====================
      2025-07-23    
 ====================
 * device/xiaomi/sm8150-common
-b973b774 [DNM] sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
 a18c41c6 sm8150-common: Enable UFFD GC [Michael Bestas]
 ac9be05e sm8150-common: Allow gettid() for atfwd-daemon [Ivan Vecera]
 
 * frameworks/base
 1535839ff SystemUI: Add tile to show volume panel [stofstik]
 cdd6b09b4 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
-
-* kernel/xiaomi/sm8150
-8ce02da2ad99 input: tp_goodix_driver: Disable goodix debug [armdebug]
-123e2151eb48 fixup! thermal: core: Workaround for xiaomi thermal mitigation [armdebug]
-7a1e732c9297 input: tp_goodix_driver: Notify sysfs when finger is in FOD area [Ivan Vecera]
-277a363cdbe2 input: tp_goodix_driver: Update aod_status [Ivan Vecera]
-8d8909139617 input: tp_goodix_driver: Do not handle impossible fod_status values [Ivan Vecera]
-59e59aef6e93 drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
-e6e1fde98000 thermal: core: Workaround for xiaomi thermal mitigation [Raphiel Rollerscaperers]
-928be38bea6a drm: msm: Add support for backlight remap [Arian]
-865a0eb7777e drm: msm: dsi-staging: Fix brightness level mapping [Adrian Salido]
-79b8a00b2bc8 drivers: input: misc: xiaomi_keyboard: Enable by default [Sebastiano Barezzi]
-e542a2307c64 drivers: hid: hid-xiaomi: Drop touchpad reporting [Sebastiano Barezzi]
-4b3fd088656a drivers: hid: Implement keyboard driver [Sebastiano Barezzi]
-3f7c48c3453d drivers: gpu: dsi-staging: Disable dynamic fps and set refresh rate to 104 [map220v]
-f197f50b29cd arch: arm64: configs: xiaomi: Enable CONFIG_INITRAMFS_IGNORE_SKIP_FLAG [Sebastiano Barezzi]
-5b24259719f6 init: Add CONFIG_INITRAMFS_IGNORE_SKIP_FLAG [Sebastiano Barezzi]
-5f8869d7e8b4 arch: arm64: boot: dts: xiaomi: Move to 2si [Sebastiano Barezzi]
-d081d1bf7489 arch: arm64: configs: xiaomi: Enable device-specific drivers [Sebastiano Barezzi]
-2c23d57b1636 techpack: audio: asoc: codecs: tfa98xx: Make it compile without debugfs [Sebastiano Barezzi]
-0fd0496d7e7c techpack: audio: Import Xiaomi changes [Sebastiano Barezzi]
-7bdcf99f47b8 sound: soc: Import Xiaomi changes [Sebastiano Barezzi]
-e7269d1d87d1 fs: pstore: Import Xiaomi changes [Sebastiano Barezzi]
-3f6a5517a402 drivers: video: backlight: Import Xiaomi changes [Sebastiano Barezzi]
-5d1b90ed92f7 drivers: video: backlight: Import KTZ8866 driver [Sebastiano Barezzi]
-107a5b224c37 drivers: usb: Import Xiaomi changes [Sebastiano Barezzi]
-2d566fdf00ed drivers: Import Trusty TEE driver [Sebastiano Barezzi]
-2864dfe92153 drivers: thermal: Import Xiaomi changes [Sebastiano Barezzi]
-087236d008b6 drivers: spi: Import Xiaomi changes [Sebastiano Barezzi]
-deb0fb5f4325 drivers: soc: qcom: Import Xiaomi changes [Sebastiano Barezzi]
-638fc7d98568 drivers: sensors: Import Xiaomi changes [Sebastiano Barezzi]
-e21e3262e793 drivers: scsi: ufs: Import Xiaomi changes [Sebastiano Barezzi]
-0fb85009a953 drivers: regulator: Import Xiaomi changes [Sebastiano Barezzi]
-cbdde14dc0ce drivers: power: supply: Import Xiaomi changes [Sebastiano Barezzi]
-d93e7caef4d5 drivers: power: supply: qcom: rx1619: Extract firmware from crux stock kernel [Sebastiano Barezzi]
-914d32a639ed drivers: power: supply: maxim: Extract S_secret from vayu stock kernel [Sebastiano Barezzi]
-219e4c6564e3 drivers: power: supply: Import Xiaomi drivers [Sebastiano Barezzi]
-5d26ee094f80 drivers: pinctrl: qcom: Import Xiaomi changes [Sebastiano Barezzi]
-7b66789a1960 drivers: of: Import Xiaomi changes [Sebastiano Barezzi]
-4a09a1037511 drivers: nfc: Import Xiaomi changes [Sebastiano Barezzi]
-635d12a02b05 drivers: misc: Import Xiaomi SIM tray status driver [Sebastiano Barezzi]
-fad5d2227583 drivers: misc: Import DRV8846 driver [Sebastiano Barezzi]
-ca07cefbbf95 drivers: misc: Import AKM09970 driver [Sebastiano Barezzi]
-86baf4b9acb2 drivers: mfd: Import Xiaomi speaker ID driver [Sebastiano Barezzi]
-6677b74e3a98 arch: arm64: boot: dts: qcom: xiaomi: Adapt IR SPI binding for upstream driver [Sebastiano Barezzi]
-5aac11e5f109 arch: arm64: boot: dts: qcom: xiaomi: Commonize IR binding [Sebastiano Barezzi]
-18bd86e51f9d drivers: media: platform: msm: camera: Import Xiaomi changes [UtsavBalar1231]
-8fcbe1d347e1 drivers: leds: Import Xiaomi changes [Sebastiano Barezzi]
-630087df2c50 drivers: input: touchscreen: xiaomi: nt36672c: Implement double_tap node [Sebastiano Barezzi]
-1919386a8313 drivers: input: touchscreen: xiaomi: nt36523: Implement pen node [Sebastiano Barezzi]
-4b00ba8bcf89 drivers: input: touchscreen: xiaomi: nt36523: Implement double_tap node [Sebastiano Barezzi]
-7bfafdc45ddc drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Give fod_status ops to tp_common [Sebastiano Barezzi]
-4284076ac3b9 drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Implement double_tap node [Sebastiano Barezzi]
-9c31f12669f7 drivers: input: touchscreen: xiaomI: fts_521: Give fod_status ops to tp_common [Sebastiano Barezzi]
-10096895dbb8 drivers: input: touchscreen: xiaomi: fts_521: Implement double_tap node [Sebastiano Barezzi]
-0148c82ae2c3 drivers: input: touchscreen: tp_common: Add pen node [Sebastiano Barezzi]
-155079e8ea52 drivers: input: touchscreen: Add an interface to expose TP features to userspace [dianlujitao]
-91045fc571c6 drivers: input: touchscreen: xiaomi: fts_521: Fix sscanf() buffer overflow [Yumi Yukimura]
-b57c8dc833b2 drivers: input: touchscreen: xiaomi: fts_521: Fix strict-prototypes error [Yumi Yukimura]
-8f7d184a29bb drivers: input: touchscreen: xiaomi: nt36523: Fix function declaration args [Sebastiano Barezzi]
-d97718fdf67e drivers: input: touchscreen: xiaomi: Make it compile without xiaomi_touch [Sebastiano Barezzi]
-09ec569185a4 drivers: input: touchscreen: xiaomi: Drop lpm_disable_for_input [Sebastiano Barezzi]
-2c5a94132f96 drivers: input: touchscreen: xiaomi: Drop touch_irq_boost [Sebastiano Barezzi]
-4e9d3326b4a9 drivers: input: touchscreen: xiaomi: Use MSM DRM notifier [Sebastiano Barezzi]
-0e6d9ad12b24 drivers: input: touchscreen: Import Xiaomi drivers [Sebastiano Barezzi]
-11b2947b16a9 firmware: Add FIRMWARE_IN_KERNEL support [Sebastiano Barezzi]
-51058e646e45 drivers: input: misc: xiaomi_keyboard: Use MSM DRM notifier [Sebastiano Barezzi]
-82a23db66d4e drivers: input: misc: Import Xiaomi keyboard driver [Sebastiano Barezzi]
-6448f7babde9 drivers: input: misc: Import aw8697_haptic_xm driver [Sebastiano Barezzi]
-e41b6ad23195 drivers: input: misc: Import Xiaomi changes [Sebastiano Barezzi]
-d702b1818a8d drivers: input: keyboard: Import Xiaomi changes [Sebastiano Barezzi]
-78873355a387 drivers: input: fingerprint: goodix: Add vayu support [Sebastiano Barezzi]
-4384abd6cd7c drivers: input: fingerprint: goodix: Improve wakelock handling [Sebastiano Barezzi]
-78a5a342cab9 drivers: input: fingerprint: Drop calls to dsi_bridge_interface_enable [Sebastiano Barezzi]
-ce49447adc97 drivers: input: fingerprint: Use MSM DRM notifier [Sebastiano Barezzi]
-079e49fce95f drivers: input: fingerprint: Import Xiaomi fingerprint drivers [Sebastiano Barezzi]
-b0106618c4cd drivers: iio: proximity: Import MIUS driver [Sebastiano Barezzi]
-a5e746bf085e drivers: iio: adc: Import Xiaomi changes [Sebastiano Barezzi]
-42b5a0f686bc drivers: halls: Fix compilation [Sebastiano Barezzi]
-ab64005da954 drivers: Import halls driver [Sebastiano Barezzi]
-d20f188dd5fa drivers: gpu: drm: msm: Import Xiaomi changes [Sebastiano Barezzi]
-8b4f0c39f5f5 arch: arm64: boot: dts: qcom: xiaomi: Adapt pen FPS values [Sebastiano Barezzi]
-4a0ad2193db9 drivers: gpu: drm: msm: Implement pen FPS sync [Sebastiano Barezzi]
-f320b40183e0 arch: arm64: boot: dts: qcom: xiaomi: Rename CPHY ESD check commands [Sebastiano Barezzi]
-6ab5f099a826 drivers: gpu: drm: msm: Add CPHY ESD check command support [Sebastiano Barezzi]
-1925d0ce48ed drivers: gpu: drm: msm: Add cphy_strength support [Sebastiano Barezzi]
-cc0ad3de2447 drivers: gpu: drm: msm: Add R_EARLY_EVENT_BLANK notification [Sebastiano Barezzi]
-8cfa362b2de0 arch: arm64: boot: dts: qcom: ea8076: optimize HBM commands for in-kernel dimming [Demon000]
-209bc76521b8 arch: arm64: boot: dts: qcom: ea8076: define fod dim lut [Demon000]
-999e686c74c4 arch: arm64: boot: dts: qcom: ea8076: disable dc dimming during fod hbm commands [Demon000]
-dfc2854159ef arch: arm64: boot: dts: qcom: ea8076: move fod hbm commands to their proper place [Demon000]
-5f42348b86c8 drivers: gpu: drm: msm: sde: Increase sde stage to map zpos changes [GuaiYiHu]
-fdf1d3154b66 drivers: gpu: drm: msm: Export FOD_PRESSED_LAYER_ZORDER to uapi [Pig]
-e3d4f95b5437 drivers: gpu: drm: msm: dsi-staging: trigger drm notifier [Demon000]
-62ae7b6d5290 drivers: gpu: drm: msm: atomic: do not trigger drm notifier [Demon000]
-d979e069eec1 drivers: gpu: drm: msm: dsi-staging: cleanup notifier implementation [Demon000]
-6ff02d5d0107 drivers: gpu: drm: msm: notify sysfs for fod ui changes [Demon000]
-e60343f8e5f3 drivers: gpu: drm: msm: implement fod handling [Demon000]
-f991e0d499a7 drivers: gpu: drm: msm: dsi-staging: add dsi_panel_get_backlight [Demon000]
-f50ec537ba74 drivers: gpu: drm: msm: dsi-staging: add get_main_display [DevriesL]
-c5654a48e228 drivers: gpu: drm: msm: sde: translate zpos property to fod property [Demon000]
-a2b921b4811d drivers: gpu: drm: msm: dsi-staging: create empty attributes group [Demon000]
-dfb52cf3d4df drivers: gpu: drm: msm: modify lp11 mode logic [Demon000]
-cb53e14edc87 drivers: gpu: drm: msm: handle ss dcs type [Demon000]
-d8f050c1197b drivers: gpu: drm: msm: extend qcom drm notifier [Demon000]
-95b4e856be4c drivers: cpufreq: Import Xiaomi changes [Sebastiano Barezzi]
-9a12952075e5 drivers: clk: qcom: mdss: Import Xiaomi changes [Sebastiano Barezzi]
-5567ee4113c1 drivers: char: Import Xiaomi changes [Sebastiano Barezzi]
-b22c7278b027 arch: arm64: boot: dts: qcom: xiaomi: nabu: Remove fingerprint bindings [Sebastiano Barezzi]
-f2cad364b5be arch: arm64: boot: dts: qcom: xiaomi: vayu: Add ln8000 support [Sebastiano Barezzi]
-079601fcff12 arch: arm64: boot: dts: qcom: xiaomi: Adapt analog USB-C for newer audio drivers [Sebastiano Barezzi]
-521958104e5a arch: arm64: boot: dts: qcom: Import overlayed dts [Sebastiano Barezzi]
-07ebcc329b7a arch: arm64: configs: xiaomi: Enable device-specific platform [Sebastiano Barezzi]
-3a97dd363249 arch: arm64: configs: xiaomi: Enable EROFS [Sebastiano Barezzi]
-4ae05db87880 arch: arm64: configs: xiaomi: Enable exFAT [Sebastiano Barezzi]
-9ac7ccb96bda arch: arm64: configs: xiaomi: Enable QCACLD [Luca Stefani]
-d33ab83b8856 arch: arm64: configs: xiaomi: Enable CONFIG_BUILD_ARM64_DT_OVERLAY [Davide Garberi]
-c2bc98700fbc arch: arm64: configs: xiaomi: Initial config fragments [Sebastiano Barezzi]
-ee128c9ac1e4 drivers: platform: Add support for Xiaomi SM8150 platform [Davide Garberi]
 
 * packages/apps/Settings
 96ebfa2a56f Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
@@ -340,27 +246,3 @@ cc19403 wiki: devices: Add ZTE Axon 9 Pro (akershus) [Andrey Sprynga]
 * vendor/lineage
 72ce571 common: Allow vendors to exclude bp paths [Aaron Kling]
 
-====================
-     2025-07-20    
-====================
-* device/qcom/sepolicy_vndr/sm8750
-89c7b4d qva: Extend extcon rules [Bruno Martins]
-
-====================
-     2025-07-19    
-====================
-* hardware/qcom-caf/sm8750/audio/pal
-b725b93 pal: opt-out libar-pal [dianlujitao]
-
-* lineage/website
-cff40b5 www: Use `clip-path: border-box` for longevity section [LuK1337]
-
-====================
-     2025-07-18    
-====================
-* external/ntfs-3g
-e2415df config.h: Update version to 2022.10.3 [Michael Bestas]
-
-====================
-     2025-07-17    
-====================
