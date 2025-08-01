@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": 1753614856,
+      "filename": "lineage-22.2-20250727-UNOFFICIAL-cepheus.zip",
+      "id": "1b2ccce8cf9212271f8a114b8d3400f828728fd3d4c32265ea4eb7fb11582b37",
+      "romtype": "UNOFFICIAL",
+      "size": 1299565399,
+      "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-cepheus-1b2ccce8/lineage-22.2-20250727-UNOFFICIAL-cepheus.zip",
+      "version": "22.2"
+    }
+  ]
+}

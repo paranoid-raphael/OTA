@@ -1,0 +1,34 @@
+====================
+     2025-08-01    
+====================
+====================
+     2025-07-31    
+====================
+====================
+     2025-07-30    
+====================
+====================
+     2025-07-29    
+====================
+====================
+     2025-07-28    
+====================
+* device/xiaomi/raphael
+221ea68 Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
+
+====================
+     2025-07-27    
+====================
+* device/xiaomi/sm8150-common
+825db149 sm8150-common: sepolicy: Address some property denials [armdebug]
+6868c91c sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
+b872d29c sm8150-common: Add missing CACert manifest entry [armdebug]
+
+* kernel/xiaomi/sm8150
+d7c0016d36b9 techpack: audio: Fix broken preprocessor guards in techpack import [armdebug]
+4928c0b11d93 arch: arm64: configs: xiaomi: Decommonize vayu audio codec [armdebug]
+752e21199508 Merge remote-tracking branch 'sm8150/lineage-20' into lineage-22.2 [armdebug]
+
+====================
+     2025-07-26    
+====================
