@@ -1,4 +1,23 @@
 ====================
+     2025-08-03    
+====================
+* device/xiaomi/sm8150-common
+0dc6b925 sm8150-common: Revert "Build AIDL NXP NFC HAL" [armdebug]
+
+* kernel/xiaomi/sm8150
+6b64c4437a8a input: tp_goodix_driver: Notify sysfs when finger is in FOD area [Ivan Vecera]
+1536cc13f88d input: tp_goodix_driver: Update aod_status [Ivan Vecera]
+c579f16fda82 input: tp_goodix_driver: Do not handle impossible fod_status values [Ivan Vecera]
+91a440f17095 drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
+1fdd27c9d18f thermal: core: Workaround for xiaomi thermal mitigation [Raphiel Rollerscaperers]
+cd393faa3e6f drm: msm: Add support for backlight remap [Arian]
+307ce9a4eab0 drm: msm: dsi-staging: Fix brightness level mapping [Adrian Salido]
+c9ccdc87f6fb techpack: audio: Fix broken guards and includes in techpack import [armdebug]
+
+====================
+     2025-08-02    
+====================
+====================
      2025-08-01    
 ====================
 ====================
@@ -16,19 +35,3 @@
 * device/xiaomi/raphael
 221ea68 Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
 
-====================
-     2025-07-27    
-====================
-* device/xiaomi/sm8150-common
-825db149 sm8150-common: sepolicy: Address some property denials [armdebug]
-6868c91c sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
-b872d29c sm8150-common: Add missing CACert manifest entry [armdebug]
-
-* kernel/xiaomi/sm8150
-d7c0016d36b9 techpack: audio: Fix broken preprocessor guards in techpack import [armdebug]
-4928c0b11d93 arch: arm64: configs: xiaomi: Decommonize vayu audio codec [armdebug]
-752e21199508 Merge remote-tracking branch 'sm8150/lineage-20' into lineage-22.2 [armdebug]
-
-====================
-     2025-07-26    
-====================
