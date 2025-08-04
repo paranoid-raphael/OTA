@@ -1,14 +1,25 @@
 ====================
+     2025-08-04    
+====================
+* device/xiaomi/raphael
+72ea637 raphael: Support UDFPS on AoD [Cosmin Tanislav]
+
+* kernel/xiaomi/sm8150
+9011ed32ea35 fixup! thermal: core: Workaround for xiaomi thermal mitigation [armdebug]
+6d5f60fbb54e drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Disable goodix debug [armdebug]
+2c9f97e76682 drivers: input: touchscreen: xiaomI: fts_521: Notify sysfs when finger is in FOD area [armdebug]
+d5592923534a drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Notify sysfs when finger is in FOD area [Ivan Vecera]
+55d37c944e48 drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Update aod_status [Ivan Vecera]
+48537e490212 drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Do not handle impossible fod_status values [Ivan Vecera]
+69015fcc2035 drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
+
+====================
      2025-08-03    
 ====================
 * device/xiaomi/sm8150-common
 0dc6b925 sm8150-common: Revert "Build AIDL NXP NFC HAL" [armdebug]
 
 * kernel/xiaomi/sm8150
-6b64c4437a8a input: tp_goodix_driver: Notify sysfs when finger is in FOD area [Ivan Vecera]
-1536cc13f88d input: tp_goodix_driver: Update aod_status [Ivan Vecera]
-c579f16fda82 input: tp_goodix_driver: Do not handle impossible fod_status values [Ivan Vecera]
-91a440f17095 drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
 1fdd27c9d18f thermal: core: Workaround for xiaomi thermal mitigation [Raphiel Rollerscaperers]
 cd393faa3e6f drm: msm: Add support for backlight remap [Arian]
 307ce9a4eab0 drm: msm: dsi-staging: Fix brightness level mapping [Adrian Salido]
@@ -29,9 +40,3 @@ c9ccdc87f6fb techpack: audio: Fix broken guards and includes in techpack import 
 ====================
      2025-07-29    
 ====================
-====================
-     2025-07-28    
-====================
-* device/xiaomi/raphael
-221ea68 Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
-
