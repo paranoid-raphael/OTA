@@ -1,248 +1,84 @@
 ====================
-     2025-07-27    
+     2025-08-22    
 ====================
-* device/xiaomi/sm8150-common
-825db149 sm8150-common: sepolicy: Address some property denials [armdebug]
-6868c91c sm8150-common: Update properties from nabu OS1.0.6.0.TKXMIXM [armdebug]
-b872d29c sm8150-common: Add missing CACert manifest entry [armdebug]
-
-* kernel/xiaomi/sm8150
-d7c0016d36b9 techpack: audio: Fix broken preprocessor guards in techpack import [armdebug]
-4928c0b11d93 arch: arm64: configs: xiaomi: Decommonize vayu audio codec [armdebug]
-752e21199508 Merge remote-tracking branch 'sm8150/lineage-20' into lineage-22.2 [armdebug]
-
-====================
-     2025-07-26    
-====================
-====================
-     2025-07-25    
-====================
-====================
-     2025-07-24    
-====================
-* hardware/qcom-caf/thermal-legacy-um
-4da393c thermal-hal: Revert "Add tsens,bcl configuration for kona" [armdebug]
-45aa40e thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
-
-====================
-     2025-07-23    
-====================
-* device/xiaomi/sm8150-common
-a18c41c6 sm8150-common: Enable UFFD GC [Michael Bestas]
-ac9be05e sm8150-common: Allow gettid() for atfwd-daemon [Ivan Vecera]
+* device/xiaomi/raphael
+fcfdf6b raphael: Cleanup overlays [armdebug]
+2d9632e raphael: Port brightness overlays from stock [armdebug]
+49ba2f3 raphael: Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
 
 * frameworks/base
-1535839ff SystemUI: Add tile to show volume panel [stofstik]
-cdd6b09b4 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+2e13e760b SystemUI: Add tile to show volume panel [stofstik]
+b6a55f31f base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+
+* hardware/qcom-caf/thermal-legacy-um
+e1d3aed thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
 
 * packages/apps/Settings
-96ebfa2a56f Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
-
-* vendor/xiaomi/raphael
-d1ec714 raphael: Migrate to py extract utils [armdebug]
-
-* vendor/xiaomi/sm8150-common
-f64e7bd sm8150-common: Allow gettid() for atfwd-daemon Fixes: E ATFWD-daemon: libminijail[11561]: blocked syscall: gettid I init    : Service 'vendor.atfwd' (pid 11561) received signal 31 I init    : Sending signal 9 to service 'vendor.atfwd' (pid 11561) process group... [armdebug]
+ab432d8c1af Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-07-22    
+     2025-08-21    
 ====================
-* kernel/xiaomi/sm8150
-66beaaa3fa5b UPSTREAM: arm64: tlb: Rewrite stale comment in asm/tlbflush.h [Will Deacon]
-d821ae4dbe7b BACKPORT: arm64: tlb: Avoid synchronous TLBIs when freeing page tables [Will Deacon]
-5200c58dc8f0 BACKPORT: arm64: tlb: Adjust stride and type of TLBI according to mmu_gather [Will Deacon]
-8e2f799e3eb5 UPSTREAM: arm64: tlb: Remove redundant !CONFIG_HAVE_RCU_TABLE_FREE code [Will Deacon]
-2c7af56f0634 UPSTREAM: arm64: tlbflush: Allow stride to be specified for __flush_tlb_range() [Will Deacon]
-dd2d3c2bb983 UPSTREAM: arm64: tlb: Justify non-leaf invalidation in flush_tlb_range() [Will Deacon]
-87f7fe4c9c12 BACKPORT: arm64: pgtable: Implement p[mu]d_valid() and check in set_p[mu]d() [Will Deacon]
-f0e697db914b UPSTREAM: arm64: tlb: Add DSB ISHST prior to TLBI in __flush_tlb_[kernel_]pgtable() [Will Deacon]
-af7045f54865 UPSTREAM: arm64: tlb: Use last-level invalidation in flush_tlb_kernel_range() [Will Deacon]
-3b41517ab747 UPSTREAM: MAINTAINERS: Add entry for MMU GATHER AND TLB INVALIDATION [Will Deacon]
-c8bfa9f62f2b RELAND: hugetlbfs: flush TLBs correctly after huge_pmd_unshare [Nadav Amit]
-0293879b59c8 BACKPORT: mm/memory: Move mmu_gather and TLB invalidation code into its own file [Peter Zijlstra]
-afcc18b5bed1 Revert "hugetlbfs: flush TLBs correctly after huge_pmd_unshare" [Cyber Knight]
-333630cb1c8c UPSTREAM: asm-generic/tlb: Track which levels of the page tables have been cleared [Will Deacon]
-1863914ff761 UPSTREAM: asm-generic/tlb: Track freeing of page-table directories in struct mmu_gather [Peter Zijlstra]
-3f4f83722ade UPSTREAM: asm-generic/tlb: Guard with #ifdef CONFIG_MMU [Will Deacon]
-7b977ec5cffb UPSTREAM: arm64: tlb: Provide forward declaration of tlb_flush() before including tlb.h [Will Deacon]
-f403f1bba83b UPSTREAM: mm: mmu_notifier fix for tlb_end_vma [Nicholas Piggin]
-6f94c2ac8a89 Revert "mm: introduce CONFIG_SPECULATIVE_PAGE_FAULT" [Minchan Kim]
-11f6a1030673 Revert "mm: prepare for FAULT_FLAG_SPECULATIVE" [Minchan Kim]
-f1d948d589c6 Revert "mm: introduce pte_spinlock for FAULT_FLAG_SPECULATIVE" [Minchan Kim]
-0fcdeafe2779 Revert "mm: make pte_unmap_same compatible with SPF" [Minchan Kim]
-578b0e5de2e4 Revert "mm: introduce INIT_VMA()" [Minchan Kim]
-f005ca24883e Revert "mm: VMA sequence count" [Minchan Kim]
-1fe3771a2c59 Revert "mm: protect VMA modifications using VMA sequence count" [Minchan Kim]
-10e72457ddb3 Revert "mm: protect mremap() against SPF hanlder" [Minchan Kim]
-d4e1acfdb145 Revert "mm: protect SPF handler against anon_vma changes" [Minchan Kim]
-cc0fe7328474 Revert "mm: cache some VMA fields in the vm_fault structure" [Minchan Kim]
-8a72383e4604 Revert "mm/migrate: Pass vm_fault pointer to migrate_misplaced_page()" [Minchan Kim]
-6f60f11d1f82 Revert "mm: introduce __lru_cache_add_active_or_unevictable" [Minchan Kim]
-6e8b4c73845b Revert "mm: introduce __page_add_new_anon_rmap()" [Minchan Kim]
-6da98bf05138 Revert "mm: introduce __vm_normal_page()" [Minchan Kim]
-366199bdae59 Revert "mm: protect mm_rb tree with a rwlock" [Minchan Kim]
-abf8e52d68b7 Revert "mm: provide speculative fault infrastructure" [Minchan Kim]
-1267810252ff Revert "mm: adding speculative page fault failure trace events" [Minchan Kim]
-0498ac706578 Revert "mm: speculative page fault handler return VMA" [Minchan Kim]
-1373183ecb43 Revert "mm: add speculative page fault vmstats" [Minchan Kim]
-efd8c97471ed Revert "arm64/mm: define ARCH_SUPPORTS_SPECULATIVE_PAGE_FAULT" [Martin Liu]
-c82c794ba1af Revert "arm64/mm: add speculative page fault" [Minchan Kim]
-2418e4d00911 Revert "mm: don't do swap readahead during speculative page fault" [Minchan Kim]
-046ba3c9e6de Revert "mm: flush TLB once pages are copied when SPF is on" [Minchan Kim]
-30342b9ba803 Revert "ANDROID: mm: skip pte_alloc during speculative page fault" [Alexander Winkowski]
-6d7f47b82526 Revert "ANDROID: mm: prevent speculative page fault handling for in do_swap_page()" [Alexander Winkowski]
-cd3ed07ff901 Revert "ANDROID: mm: prevent reads of unstable pmd during speculation" [Alexander Winkowski]
-440e1675ca87 Revert "BACKPORT: FROMLIST: mm: implement speculative handling in filemap_fault()" [Alexander Winkowski]
-873a2dc3e7db Revert "ANDROID: mm/khugepaged: add missing vm_write_{begin|end}" [Alexander Winkowski]
-1389a2e0a073 Revert "ANDROID: mm: remove sequence counting when mmap_lock is not exclusively owned" [Alexander Winkowski]
-6433bd753f1c Revert "ANDROID: mm: assert that mmap_lock is taken exclusively in vm_write_begin" [Alexander Winkowski]
-33c1fad39b2a Revert "ANDROID: mm: fix invalid backport in speculative page fault path" [Alexander Winkowski]
-53e6aac399ea Revert "ANDROID: Re-enable fast mremap and fix UAF with SPF" [Alexander Winkowski]
-023e9a0bb4f9 Revert "ANDROID: mm/filemap: Fix missing put_page() for speculative page fault" [Alexander Winkowski]
-d107078f976c ANDROID: Fix compilation error with huge_pmd_share() [Lokesh Gidra]
-2391ef4a882d UPSTREAM: mm/userfaultfd: selftests: fix memory corruption with thp enabled [Peter Xu]
-b98ec89115c0 UPSTREAM: mm/shmem: use page_mapping() to detect page cache for uffd continue [Peter Xu]
-0e69e98dea78 UPSTREAM: mm/userfaultfd: fix memory corruption due to writeprotect [Nadav Amit]
-f6fa90c0ba7a UPSTREAM: mm: hugetlb: add missing cache flushing in hugetlb_unshare_all_pmds() [Baolin Wang]
-b1e8322be3a2 BACKPORT: mm, mempolicy: fix up gup usage in lookup_node [Michal Hocko]
-e54fe9d95e5f UPSTREAM: mm/mempolicy: Allow lookup_node() to handle fatal signal [Peter Xu]
-2230874b4d00 UPSTREAM: mm/gup: Let __get_user_pages_locked() return -EINTR for fatal signal [Hillf Danton]
-0636323e35d2 UPSTREAM: mm/gup: fix fixup_user_fault() on multiple retries [Peter Xu]
-ed420cceb943 UPSTREAM: mm/gup: Mark lock taken only after a successful retake [Peter Xu]
-a9461e52426e UPSTREAM: mm/userfaultfd: honor FAULT_FLAG_KILLABLE in fault path [Peter Xu]
-f4d63891d1d6 UPSTREAM: mm/gup: allow to react to fatal signals [Peter Xu]
-60d475ba377b locking/rwsem: Add down_read_killable() [Kirill Tkhai]
-512f095d8783 UPSTREAM: mm/gup: allow VM_FAULT_RETRY for multiple times [Peter Xu]
-f66851118117 BACKPORT: UPSTREAM: mm: allow VM_FAULT_RETRY for multiple times [Peter Xu]
-2b6e5591c0a8 UPSTREAM: mm: introduce FAULT_FLAG_INTERRUPTIBLE [Peter Xu]
-c00051a14a38 UPSTREAM: mm: introduce FAULT_FLAG_DEFAULT [Peter Xu]
-3f959c392855 UPSTREAM: userfaultfd: don't retake mmap_sem to emulate NOPAGE [Peter Xu]
-6991f5f164a6 UPSTREAM: mm: return faster for non-fatal signals in user mode faults [Peter Xu]
-39516ef8bf35 UPSTREAM: sh/mm: use helper fault_signal_pending() [Peter Xu]
-74f0adb507df UPSTREAM: powerpc/mm: use helper fault_signal_pending() [Peter Xu]
-87d32bb583da UPSTREAM: arm64/mm: use helper fault_signal_pending() [Peter Xu]
-9d884787a1cc UPSTREAM: arc/mm: use helper fault_signal_pending() [Peter Xu]
-9ad0cbb62470 UPSTREAM: x86/mm: use helper fault_signal_pending() [Peter Xu]
-e1457739524f BACKPORT: mm: introduce fault_signal_pending() [Peter Xu]
-e8031d05590b ARC: mm: do_page_fault refactor #8: release mmap_sem sooner [Vineet Gupta]
-87db6766a5cb ARC: mm: do_page_fault refactor #7: fold the various error handling [Vineet Gupta]
-cd89975e1944 ARC: mm: do_page_fault refactor #6: error handlers to use same pattern [Vineet Gupta]
-61899c5f957c ARC: mm: do_page_fault refactor #5: scoot no_context to end [Vineet Gupta]
-3a392afe47ff ARC: mm: do_page_fault refactor #4: consolidate retry related logic [Vineet Gupta]
-db2142b13da1 ARC: mm: do_page_fault refactor #3: tidyup vma access permission code [Vineet Gupta]
-6c06461e8cf2 ARC: mm: do_page_fault refactor #2: remove short lived variable [Vineet Gupta]
-f15f97d3fa46 ARC: mm: do_page_fault refactor #1: remove label @good_area [Vineet Gupta]
-47051f7ba666 ARC: mm: SIGSEGV userspace trying to access kernel virtual memory [Eugeniy Paltsev]
-9481c81e6cc6 ARC: mm: do_page_fault fixes #1: relinquish mmap_sem if signal arrives while handle_mm_fault [Vineet Gupta]
-48e1e12b3709 arch/arc/mm/fault.c: remove caller signal_pending_branch predictions [Davidlohr Bueso]
-f07bbb71efd2 UPSTREAM: mm/gup: fix __get_user_pages() on fault retry of hugetlb [Peter Xu]
-25dbe306d328 UPSTREAM: mm/gup: rename "nonblocking" to "locked" where proper [Peter Xu]
-8faab3ee02b5 mm/hugetlb.c: teach follow_hugetlb_page() to handle FOLL_NOWAIT [Andrea Arcangeli]
-6547058d280d mm/gup.c: teach get_user_pages_unlocked to handle FOLL_NOWAIT [Andrea Arcangeli]
-aa11f9d40485 mm/gup: finish consolidating error handling [John Hubbard]
-b22520706163 mm/gup: cache dev_pagemap while pinning pages [Keith Busch]
-fac7b076a873 BACKPORT: FROMGIT: userfaultfd: fix UFFDIO_CONTINUE ioctl request definition [Gleb Fotengauer-Malinovskiy]
-4aece7090724 FROMGIT: userfaultfd/selftests: exercise minor fault handling shmem support [Axel Rasmussen]
-2f9d6a486422 BACKPORT: FROMGIT: userfaultfd/selftests: reinitialize test context in each test [Axel Rasmussen]
-225a2cbbae77 FROMGIT: userfaultfd/selftests: create alias mappings in the shmem test [Axel Rasmussen]
-f93ff1f8bbec FROMGIT: userfaultfd/selftests: use memfd_create for shmem test type [Axel Rasmussen]
-68788a1be3fa BACKPORT: FROMGIT: userfaultfd/selftests: unify error handling [Peter Xu]
-68f2c238ba97 userfaultfd: selftest: cleanup help messages [Peter Xu]
-aa9bcf0bea42 BACKPORT: FROMGIT: userfaultfd/shmem: modify shmem_mfill_atomic_pte to use install_pte() [Axel Rasmussen]
-93f7bdf46aca BACKPORT: FROMGIT: userfaultfd/shmem: advertise shmem minor fault support [Axel Rasmussen]
-ff03bcdf5815 BACKPORT: FROMGIT: userfaultfd/shmem: support UFFDIO_CONTINUE for shmem [Axel Rasmussen]
-b080d6c22213 BACKPORT: FROMGIT: userfaultfd/shmem: support minor fault registration for shmem [Axel Rasmussen]
-e0cb61c16b08 BACKPORT: FROMGIT: userfaultfd/shmem: combine shmem_{mcopy_atomic,mfill_zeropage}_pte [Axel Rasmussen]
-dbc1868d2124 BACKPORT: FROMGIT: userfaultfd/selftests: only dump counts if mode enabled [Peter Xu]
-dcd0f774cf01 BACKPORT: userfaultfd/selftests: add test exercising minor fault handling [Axel Rasmussen]
-e70c169dc681 BACKPORT: userfaultfd: selftests: add write-protect test [Lokesh Gidra]
-412a2a0d7864 BACKPORT: userfaultfd: selftests: refactor statistics [Peter Xu]
-91d9f9f82aaa Revert "BACKPORT: FROMGIT: userfaultfd/selftests: add test exercising minor fault handling" [Lokesh Gidra]
-635f1f8100d9 Revert "BACKPORT: FROMGIT: userfaultfd: support minor fault handling for shmem" [Lokesh Gidra]
-e2520a3bf93c Revert "FROMGIT: userfaultfd/selftests: use memfd_create for shmem test type" [Lokesh Gidra]
-18be23241c2c Revert "FROMGIT: userfaultfd/selftests: create alias mappings in the shmem test" [Lokesh Gidra]
-4ebe145c5026 Revert "BACKPORT: FROMGIT: userfaultfd/selftests: reinitialize test context in each test" [Lokesh Gidra]
-d36aa76d0428 Revert "BACKPORT: FROMGIT: userfaultfd/selftests: exercise minor fault handling shmem support" [Lokesh Gidra]
-f3d4bb9f1e78 Revert "FROMLIST: userfaultfd/shmem: fix minor fault page leak" [Lokesh Gidra]
-5beeffe6d489 BACKPORT: userfaultfd: wp: add helper for writeprotect check [Shaohua Li]
-955f8500369c BACKPORT: build_bug.h: add wrapper for _Static_assert [Rasmus Villemoes]
-7b74cf7c6084 BACKPORT: ANDROID: userfaultfd: abort uffdio ops if mmap_lock is contended [Lokesh Gidra]
-540b872574d6 BACKPORT: ANDROID: userfaultfd: add MMAP_TRYLOCK mode for COPY/ZEROPAGE [Lokesh Gidra]
-1dce04b5362a BACKPORT: userfaultfd: wp: add UFFDIO_COPY_MODE_WP [Andrea Arcangeli]
-e96af190d4d5 BACKPORT: userfaultfd: wp: declare _UFFDIO_WRITEPROTECT conditionally [Peter Xu]
-f01973c23c34 userfaultfd: do not untag user pointers [Peter Collingbourne]
-a06eee8c6a09 UPSTREAM: mm/mremap: don't account pages in vma_to_resize() [Dmitry Safonov]
-a20c4a800a57 BACKPORT: FROMLIST: Revert "mremap: don't allow MREMAP_DONTUNMAP on special_mappings and aio" [Brian Geffon]
-2c2af9e0a12c FROMLIST: mm: Extend MREMAP_DONTUNMAP to non-anonymous mappings [Brian Geffon]
-b66b96738b98 UPSTREAM: mremap: don't allow MREMAP_DONTUNMAP on special_mappings and aio [Dmitry Safonov]
-7856b8cad080 BACKPORT: mm/mremap: for MREMAP_DONTUNMAP check security_vm_enough_memory_mm() [Dmitry Safonov]
-660b474005a3 UPSTREAM: tools headers UAPI: Sync linux/mman.h with the kernel [Arnaldo Carvalho de Melo]
-8a0727c4a5e9 UPSTREAM: userfaultfd: fix remap event with MREMAP_DONTUNMAP [Brian Geffon]
-57d142698f78 UPSTREAM: mm: Fix MREMAP_DONTUNMAP accounting on VMA merge [Brian Geffon]
-8978c5f70384 UPSTREAM: mm/mremap: add MREMAP_DONTUNMAP to mremap() [Brian Geffon]
-712901bb5b7c ANDROID: userfaultfd: Fix untag pointer in userfaultfd_continue() [Orson Zhai]
-61b30745eefe FROMLIST: userfaultfd/shmem: fix minor fault page leak [Axel Rasmussen]
-23064e4f689a BACKPORT: FROMLIST: userfaultfd/hugetlbfs: Fix minor fault page leak [Peter Xu]
-e7a1fe989a1f BACKPORT: FROMGIT: userfaultfd/selftests: drop VERIFY check in locking_thread [Peter Xu]
-5df411b1d57c FROMGIT: userfaultfd/selftests: remove the time() check on delayed uffd [Peter Xu]
-8d804692080e FROMGIT: userfaultfd/selftests: use user mode only [Peter Xu]
-f310189724b0 BACKPORT: FROMGIT: userfaultfd/selftests: exercise minor fault handling shmem support [Axel Rasmussen]
-c7ea2c773b35 BACKPORT: FROMGIT: userfaultfd/selftests: reinitialize test context in each test [Axel Rasmussen]
-427370442d63 FROMGIT: userfaultfd/selftests: create alias mappings in the shmem test [Axel Rasmussen]
-e5e047f07597 FROMGIT: userfaultfd/selftests: use memfd_create for shmem test type [Axel Rasmussen]
-5b78e3bed4dc BACKPORT: FROMGIT: userfaultfd: support minor fault handling for shmem [Axel Rasmussen]
-6ccc61f6a543 BACKPORT: FROMGIT: userfaultfd/selftests: add test exercising minor fault handling [Axel Rasmussen]
-1dd0b6ffdd8f userfaultfd: selftest: generalize read and poll [Peter Xu]
-ff1a1d150011 BACKPORT: FROMGIT: userfaultfd: update documentation to describe minor fault handling [Axel Rasmussen]
-6d068b83de05 BACKPORT: FROMGIT: userfaultfd: add UFFDIO_CONTINUE ioctl [Axel Rasmussen]
-25563e1d6648 userfaultfd: fix mmap_changing checking in mfill_atomic_hugetlb [Lokesh Gidra]
-b77f74f17e4f BACKPORT: userfaultfd: prevent non-cooperative events vs mcopy_atomic races [Mike Rapoport]
-bb1f2d4ed3d3 BACKPORT: FROMGIT: userfaultfd: hugetlbfs: only compile UFFD helpers if config enabled [Axel Rasmussen]
-2d32f0623c49 FROMGIT: userfaultfd: disable huge PMD sharing for MINOR registered VMAs [Axel Rasmussen]
-869fad37af98 BACKPORT: FROMGIT: userfaultfd: add minor fault registration mode [Axel Rasmussen]
-a9dab1dac0ae BACKPORT: FROMGIT: hugetlb/userfaultfd: unshare all pmds for hugetlbfs when register wp [Peter Xu]
-a598af6f15e7 FROMGIT: mm/hugetlb: move flush_hugetlb_tlb_range() into hugetlb.h [Peter Xu]
-72aa1e605086 FROMGIT: mm/hugetlb: fix build with !ARCH_WANT_HUGE_PMD_SHARE [Peter Xu]
-81a19b7e834b BACKPORT: FROMGIT: hugetlb/userfaultfd: forbid huge pmd sharing when uffd enabled [Peter Xu]
-db8cf401cde4 BACKPORT: FROMGIT: hugetlb: pass vma into huge_pte_alloc() and huge_pmd_share() [Peter Xu]
-d7e2c3b83641 UPSTREAM: selftests/vm/.gitignore: add mremap_dontunmap [John Hubbard]
-c370f7c550d9 FROMLIST: selftests: Add a MREMAP_DONTUNMAP selftest for shmem [Brian Geffon]
-aee9d463b447 UPSTREAM: selftests: add MREMAP_DONTUNMAP selftest [Brian Geffon]
-f54ef1f06039 BACKPORT: mm/mremap: hold the rmap lock in write mode when moving page table entries. [Aneesh Kumar K.V]
-52fe5a2c9c5c UPSTREAM: mm/mremap.c: fix extent calculation [Kalesh Singh]
-a2333726688f UPSTREAM: x86: mremap speedup - Enable HAVE_MOVE_PUD [Kalesh Singh]
-5585376bb279 mm: select HAVE_MOVE_PMD on x86 for faster mremap [Joel Fernandes (Google)]
-994df5b67cca UPSTREAM: arm64: mremap speedup - enable HAVE_MOVE_PUD [Kalesh Singh]
-7e84645f282f BACKPORT: mm: speedup mremap on 1GB or larger regions [Kalesh Singh]
-9c675f67ada9 UPSTREAM: arm64: mremap speedup - Enable HAVE_MOVE_PMD [Kalesh Singh]
-55aa9440e322 mm: speed up mremap by 20x on large regions [Joel Fernandes (Google)]
-c03090c08306 mremap: remove LATENCY_LIMIT from mremap to reduce the number of TLB shootdowns [Mel Gorman]
-7be140ae865d ANDROID: defconfig: Enable CONFIG_USERFAULTFD [Lokesh Gidra]
-0541ba39e544 UPSTREAM: userfaultfd: add user-mode only option to unprivileged_userfaultfd sysctl knob [Lokesh Gidra]
-54879eca6298 BACKPORT: userfaultfd: add UFFD_USER_MODE_ONLY [Lokesh Gidra]
-93bac78575e7 BACKPORT: userfaultfd/sysctl: add vm.unprivileged_userfaultfd [Peter Xu]
-
-* lineage/hudson
-0815403 Akershus Castle is a medieval castle in the Norwegian capital Oslo that was built to protect and provide a royal residence for the city. [Andrey Sprynga]
-
 * lineage/mirror
-86ff047 Updated to 21-Jul-2025 22:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-cc19403 wiki: devices: Add ZTE Axon 9 Pro (akershus) [Andrey Sprynga]
-
-====================
-     2025-07-21    
-====================
-* hardware/qcom-caf/common
-4253860 common: Add liboemcrypto.so to vendor linker config [LuK1337]
-
-* packages/apps/Etar
-1f3fded Etar: Add GitHub actions build workflow [LuK1337]
+4148dda Updated to 20-Aug-2025 22:01 UTC [Tim Schumacher]
 
 * packages/apps/Twelve
-040bd2d Twelve: Let the app handle view intents with genre content URIs [Sebastiano Barezzi]
+892bdbb Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink [Luca Stefani]
+
+====================
+     2025-08-20    
+====================
+* build/make
+cc3952e envsetup: lunch: Generate build-manifest.xml after roomservice finishes [Yumi Yukimura]
 
 * vendor/lineage
-72ce571 common: Allow vendors to exclude bp paths [Aaron Kling]
+e69f4b9 lineage: Move build-manifest.xml generation to a separate script [Yumi Yukimura]
+
+====================
+     2025-08-19    
+====================
+* device/lineage/sepolicy
+792d024 qcom: Label AIDL LiveDisplay SDM HAL [LuK1337]
+
+* hardware/lineage/interfaces
+41de4ce livedisplay: sdm: Initial AIDL port [LuK1337]
+
+====================
+     2025-08-18    
+====================
+* android
+51cbbb8 manifest: Drop superproject tag [Alexander Koskovich]
+
+====================
+     2025-08-17    
+====================
+* lineage-sdk
+787a24e Wire up AIDL LiveDisplay HAL [LuK1337]
+
+* packages/apps/Settings
+6f25245dad2 Settings: Add lineagehealth IFastCharge interface support [LuK1337]
+
+====================
+     2025-08-16    
+====================
+* build/release
+f966e5e Bump Security String to 2025-08-01 [althafvly]
+
+* packages/apps/Aperture
+8400f48 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Catapult
+f6e4332 Automatic translation import [LineageOS Infra]
+
+* packages/apps/LineageParts
+25f3e4e Automatic translation import [LineageOS Infra]
+
+* packages/apps/SetupWizard
+bf0afd2 SetupWizard: Add option to skip setup wizard on eng builds [Inhishonor]
+
+* vendor/crowdin
+0daf944 Automatic translation import [LineageOS Infra]
+
+* vendor/qcom/opensource/commonsys/fm
+2c03486 Automatic translation import [LineageOS Infra]
 
