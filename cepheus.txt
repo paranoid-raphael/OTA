@@ -1,42 +1,63 @@
 ====================
-     2025-08-04    
+     2025-08-23    
+====================
+====================
+     2025-08-22    
 ====================
 * device/xiaomi/raphael
-72ea637 raphael: Support UDFPS on AoD [Cosmin Tanislav]
+fcfdf6b raphael: Cleanup overlays [armdebug]
+2d9632e raphael: Port brightness overlays from stock [armdebug]
+49ba2f3 raphael: Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
 
-* kernel/xiaomi/sm8150
-9011ed32ea35 fixup! thermal: core: Workaround for xiaomi thermal mitigation [armdebug]
-6d5f60fbb54e drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Disable goodix debug [armdebug]
-2c9f97e76682 drivers: input: touchscreen: xiaomI: fts_521: Notify sysfs when finger is in FOD area [armdebug]
-d5592923534a drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Notify sysfs when finger is in FOD area [Ivan Vecera]
-55d37c944e48 drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Update aod_status [Ivan Vecera]
-48537e490212 drivers: input: touchscreen: xiaomi: goodix_driver_gt9886: Do not handle impossible fod_status values [Ivan Vecera]
-69015fcc2035 drivers: input: touchscreen: Extend common touchpanel interface by fp_state [Ivan Vecera]
+* frameworks/base
+2e13e760b SystemUI: Add tile to show volume panel [stofstik]
+b6a55f31f base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
-====================
-     2025-08-03    
-====================
-* device/xiaomi/sm8150-common
-0dc6b925 sm8150-common: Revert "Build AIDL NXP NFC HAL" [armdebug]
+* hardware/qcom-caf/thermal-legacy-um
+e1d3aed thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
 
-* kernel/xiaomi/sm8150
-1fdd27c9d18f thermal: core: Workaround for xiaomi thermal mitigation [Raphiel Rollerscaperers]
-cd393faa3e6f drm: msm: Add support for backlight remap [Arian]
-307ce9a4eab0 drm: msm: dsi-staging: Fix brightness level mapping [Adrian Salido]
-c9ccdc87f6fb techpack: audio: Fix broken guards and includes in techpack import [armdebug]
+* packages/apps/Settings
+ab432d8c1af Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-08-02    
+     2025-08-21    
 ====================
+* lineage/mirror
+4148dda Updated to 20-Aug-2025 22:01 UTC [Tim Schumacher]
+
+* packages/apps/Twelve
+892bdbb Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink [Luca Stefani]
+
 ====================
-     2025-08-01    
+     2025-08-20    
 ====================
+* build/make
+cc3952e envsetup: lunch: Generate build-manifest.xml after roomservice finishes [Yumi Yukimura]
+
+* vendor/lineage
+e69f4b9 lineage: Move build-manifest.xml generation to a separate script [Yumi Yukimura]
+
 ====================
-     2025-07-31    
+     2025-08-19    
 ====================
+* device/lineage/sepolicy
+792d024 qcom: Label AIDL LiveDisplay SDM HAL [LuK1337]
+
+* hardware/lineage/interfaces
+41de4ce livedisplay: sdm: Initial AIDL port [LuK1337]
+
 ====================
-     2025-07-30    
+     2025-08-18    
 ====================
+* android
+51cbbb8 manifest: Drop superproject tag [Alexander Koskovich]
+
 ====================
-     2025-07-29    
+     2025-08-17    
 ====================
+* lineage-sdk
+787a24e Wire up AIDL LiveDisplay HAL [LuK1337]
+
+* packages/apps/Settings
+6f25245dad2 Settings: Add lineagehealth IFastCharge interface support [LuK1337]
+

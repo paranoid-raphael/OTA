@@ -1,6 +1,15 @@
 {
   "response": [
     {
+      "datetime": 1755928739,
+      "filename": "lineage-22.2-20250823-UNOFFICIAL-cepheus.zip",
+      "id": "5737a6e51ce5d22328fdcd1c73070d9d80f6afeaf42203addd93b2d0e38aeacd",
+      "romtype": "UNOFFICIAL",
+      "size": 1299470802,
+      "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-cepheus-5737a6e5/lineage-22.2-20250823-UNOFFICIAL-cepheus.zip",
+      "version": "22.2"
+    },
+    {
       "datetime": 1754321240,
       "filename": "lineage-22.2-20250804-UNOFFICIAL-cepheus.zip",
       "id": "c44f5bd7e6c66011a6f364ab0872dc056e1e8ed635bdcbd68bb9c2d6389467d1",
@@ -16,15 +25,6 @@
       "romtype": "UNOFFICIAL",
       "size": 1299580365,
       "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-cepheus-f3026c89/lineage-22.2-20250803-UNOFFICIAL-cepheus.zip",
-      "version": "22.2"
-    },
-    {
-      "datetime": 1753614856,
-      "filename": "lineage-22.2-20250727-UNOFFICIAL-cepheus.zip",
-      "id": "1b2ccce8cf9212271f8a114b8d3400f828728fd3d4c32265ea4eb7fb11582b37",
-      "romtype": "UNOFFICIAL",
-      "size": 1299565399,
-      "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-cepheus-1b2ccce8/lineage-22.2-20250727-UNOFFICIAL-cepheus.zip",
       "version": "22.2"
     }
   ]
