@@ -1,84 +1,109 @@
 ====================
-     2025-08-22    
+     2025-09-09    
 ====================
-* device/xiaomi/raphael
-fcfdf6b raphael: Cleanup overlays [armdebug]
-2d9632e raphael: Port brightness overlays from stock [armdebug]
-49ba2f3 raphael: Update qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml [armdebug]
-
 * frameworks/base
-2e13e760b SystemUI: Add tile to show volume panel [stofstik]
-b6a55f31f base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
-
-* hardware/qcom-caf/thermal-legacy-um
-e1d3aed thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
+b6c49c3a7 SystemUI: Add tile to show volume panel [stofstik]
+50076646d base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
 * packages/apps/Settings
-ab432d8c1af Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+0fe82bb7197 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-08-21    
+     2025-09-08    
 ====================
+* frameworks/base
+9fbbf5a11 fixup! power: Explicitly check for silent ringtone [programminghoch10]
+
 * lineage/mirror
-4148dda Updated to 20-Aug-2025 22:01 UTC [Tim Schumacher]
+8896d20 Updated lineage-minimal to 07-Sep-2025 22:01 UTC [Tim Schumacher]
 
-* packages/apps/Twelve
-892bdbb Twelve: TwelveAudioSink: Add missing delegates to defaultAudioSink [Luca Stefani]
-
-====================
-     2025-08-20    
-====================
-* build/make
-cc3952e envsetup: lunch: Generate build-manifest.xml after roomservice finishes [Yumi Yukimura]
+* lineage/wiki
+0aaa61c wiki: Remove `recovery_boot` from salami [LuK1337]
 
 * vendor/lineage
-e69f4b9 lineage: Move build-manifest.xml generation to a separate script [Yumi Yukimura]
+18c7a31 apns: Add BICS [dianlujitao]
 
 ====================
-     2025-08-19    
-====================
-* device/lineage/sepolicy
-792d024 qcom: Label AIDL LiveDisplay SDM HAL [LuK1337]
-
-* hardware/lineage/interfaces
-41de4ce livedisplay: sdm: Initial AIDL port [LuK1337]
-
-====================
-     2025-08-18    
+     2025-09-07    
 ====================
 * android
-51cbbb8 manifest: Drop superproject tag [Alexander Koskovich]
+7680485 manifest: September 2025 Security Update [Michael Bestas]
+
+* hardware/qcom-caf/msm8998/audio
+717b078 hal: audio_extn: Add argument to pthread routines [danielml]
+
+* hardware/qcom-caf/sdm845/audio
+d5ad5c1 hal: audio_extn: Add argument to pthread routines [danielml]
+
+* lineage/hudson
+10f45e6 Finally, waffles are on the breakfast menu for Hudson builds [chandu078]
 
 ====================
-     2025-08-17    
+     2025-09-06    
 ====================
-* lineage-sdk
-787a24e Wire up AIDL LiveDisplay HAL [LuK1337]
+* hardware/qcom-caf/common
+4d5665c qcom: Add msm8998 audio soong config [Michael Bestas]
+
+* lineage/crowdin
+cf1accb config: Add hardware/oplus/Pen [LuK1337]
+
+====================
+     2025-09-05    
+====================
+====================
+     2025-09-04    
+====================
+* packages/apps/Aperture
+163d4bb Aperture: Fix zoom level bar alignment in QR mode [LuK1337]
+
+====================
+     2025-09-03    
+====================
+* art
+2bff684 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* build/make
+f9262a9 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* frameworks/av
+2ff01e6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* frameworks/native
+a7f9cc6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* frameworks/opt/telephony
+c3571e7 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* packages/apps/Contacts
+29de9bf Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* packages/apps/DocumentsUI
+dff9363 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+
+* packages/apps/ManagedProvisioning
+5d236fc Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
 * packages/apps/Settings
-6f25245dad2 Settings: Add lineagehealth IFastCharge interface support [LuK1337]
+3467f15108f Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-====================
-     2025-08-16    
-====================
-* build/release
-f966e5e Bump Security String to 2025-08-01 [althafvly]
+* packages/modules/Bluetooth
+b6a6b8a Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* packages/apps/Aperture
-8400f48 Automatic translation import [LineageOS Infra]
+* packages/modules/CellBroadcastService
+ea7970b Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* packages/apps/Catapult
-f6e4332 Automatic translation import [LineageOS Infra]
+* packages/modules/IntentResolver
+ac921be Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* packages/apps/LineageParts
-25f3e4e Automatic translation import [LineageOS Infra]
+* packages/modules/Permission
+f9690ca Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* packages/apps/SetupWizard
-bf0afd2 SetupWizard: Add option to skip setup wizard on eng builds [Inhishonor]
+* packages/modules/Wifi
+d641724 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* vendor/crowdin
-0daf944 Automatic translation import [LineageOS Infra]
+* packages/providers/MediaProvider
+47422d5 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
-* vendor/qcom/opensource/commonsys/fm
-2c03486 Automatic translation import [LineageOS Infra]
+* packages/services/Telephony
+85f9d70 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
 
