@@ -1,109 +1,146 @@
 ====================
-     2025-09-09    
+     2025-09-16    
 ====================
+* build/release
+876937c Bump Security String to 2025-09-01 [Michael Bestas]
+
 * frameworks/base
-b6c49c3a7 SystemUI: Add tile to show volume panel [stofstik]
-50076646d base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+6a3dfdd2f Revert "Fix biometric prompt appearing above shade" [Austin Delgado]
+8c151bb87 SystemUI: Add tile to show volume panel [stofstik]
+cadad497e base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
-* packages/apps/Settings
-0fe82bb7197 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
-
-====================
-     2025-09-08    
-====================
-* frameworks/base
-9fbbf5a11 fixup! power: Explicitly check for silent ringtone [programminghoch10]
-
-* lineage/mirror
-8896d20 Updated lineage-minimal to 07-Sep-2025 22:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-0aaa61c wiki: Remove `recovery_boot` from salami [LuK1337]
-
-* vendor/lineage
-18c7a31 apns: Add BICS [dianlujitao]
-
-====================
-     2025-09-07    
-====================
-* android
-7680485 manifest: September 2025 Security Update [Michael Bestas]
-
-* hardware/qcom-caf/msm8998/audio
-717b078 hal: audio_extn: Add argument to pthread routines [danielml]
-
-* hardware/qcom-caf/sdm845/audio
-d5ad5c1 hal: audio_extn: Add argument to pthread routines [danielml]
-
-* lineage/hudson
-10f45e6 Finally, waffles are on the breakfast menu for Hudson builds [chandu078]
-
-====================
-     2025-09-06    
-====================
-* hardware/qcom-caf/common
-4d5665c qcom: Add msm8998 audio soong config [Michael Bestas]
+* hardware/qcom-caf/thermal-legacy-um
+cf6d0a5 thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
 
 * lineage/crowdin
-cf1accb config: Add hardware/oplus/Pen [LuK1337]
+d676fb0 config: Remove 19.1/20.0 support [Michael Bestas]
 
-====================
-     2025-09-05    
-====================
-====================
-     2025-09-04    
-====================
 * packages/apps/Aperture
-163d4bb Aperture: Fix zoom level bar alignment in QR mode [LuK1337]
-
-====================
-     2025-09-03    
-====================
-* art
-2bff684 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* build/make
-f9262a9 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* frameworks/av
-2ff01e6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* frameworks/native
-a7f9cc6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* frameworks/opt/telephony
-c3571e7 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/Contacts
-29de9bf Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/DocumentsUI
-dff9363 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/ManagedProvisioning
-5d236fc Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+1b0c843 Aperture: No more jail escape [Luca Stefani]
 
 * packages/apps/Settings
-3467f15108f Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+eb5c427d91f Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
-* packages/modules/Bluetooth
-b6a6b8a Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+====================
+     2025-09-15    
+====================
+* frameworks/base
+fc38726ef Automatic translation import [LineageOS Infra]
 
-* packages/modules/CellBroadcastService
-ea7970b Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* lineage-sdk
+e622339 Automatic translation import [LineageOS Infra]
 
-* packages/modules/IntentResolver
-ac921be Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* lineage/mirror
+c18e2f2 Updated to 14-Sep-2025 22:01 UTC [Tim Schumacher]
 
-* packages/modules/Permission
-f9690ca Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* lineage/wiki
+573ae0d wiki: fastboot reboot-recovery -> fastboot reboot recovery [LuK1337]
 
-* packages/modules/Wifi
-d641724 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* packages/apps/Camelot
+34fd95b Automatic translation import [LineageOS Infra]
 
-* packages/providers/MediaProvider
-47422d5 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* packages/apps/Catapult
+8f00af7 Automatic translation import [LineageOS Infra]
 
-* packages/services/Telephony
-85f9d70 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* packages/apps/DeskClock
+cd9326b Automatic translation import [LineageOS Infra]
+
+* packages/apps/Dialer
+0f46e4b Automatic translation import [LineageOS Infra]
+
+* packages/apps/Etar
+26ac561 Automatic translation import [LineageOS Infra]
+
+* packages/apps/FMRadio
+5160538 Automatic translation import [LineageOS Infra]
+
+* packages/apps/FlipFlap
+dd49d55 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Glimpse
+e774392 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Jelly
+6de7c84 Automatic translation import [LineageOS Infra]
+
+* packages/apps/LineageParts
+84552e0 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Messaging
+d65b136 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Recorder
+1f9060b Automatic translation import [LineageOS Infra]
+
+* packages/apps/Settings
+e54e5070a42 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Trebuchet
+7220bfa Automatic translation import [LineageOS Infra]
+
+* packages/apps/Twelve
+e765cd7 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Updater
+be62451 Automatic translation import [LineageOS Infra]
+
+* packages/providers/DownloadProvider
+14a2956 Automatic translation import [LineageOS Infra]
+
+* packages/resources/devicesettings
+61a0716 Automatic translation import [LineageOS Infra]
+
+* vendor/crowdin
+c6cea5e Automatic translation import [LineageOS Infra]
+
+* vendor/qcom/opensource/commonsys/fm
+0a042da Automatic translation import [LineageOS Infra]
+
+====================
+     2025-09-14    
+====================
+* android
+e3c809a manifest: Remove sdm845 HAL guards [Michael Bestas]
+
+* hardware/qcom/audio
+1b40af4 hal: Convert primary HAL to blueprint [Michael Bestas]
+
+* hardware/qcom/bt
+73ebd37 bt: Build with -Werror [Michael Bestas]
+
+* hardware/qcom/camera
+bdff615 camera: Remove unused libmmlib2d_interface [Michael Bestas]
+
+* hardware/qcom/sdm845/display
+0d74c81 display: histogram: Add missing epoll_event.h include [razorloves]
+
+====================
+     2025-09-13    
+====================
+====================
+     2025-09-12    
+====================
+* hardware/libhardware
+dacf02a Avoid log fatal when converting between pcm_format and audio_format_t. [jiabin]
+
+* hardware/qcom/sdm845/gps
+71438e3 Add hardware/qcom/sdm845/gps soong namespace [ChengYou Ho]
+
+* packages/inputmethods/LatinIME
+b1b807e Add Turkish F layout [Berkay Yıldırım]
+
+====================
+     2025-09-11    
+====================
+* vendor/lineage
+a5111a0 vars: Point bluejay to archive.org [Michael Bestas]
+
+====================
+     2025-09-10    
+====================
+* hardware/qcom/sm8150/display
+c13de98 Convert remaining Android.mk to blueprint [Michael Bestas]
+
+* hardware/qcom/sm8150/gps
+c102eca Remove obsolete os_pickup.{bp,mk} [Michael Bestas]
 
