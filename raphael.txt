@@ -1,146 +1,133 @@
 ====================
-     2025-09-16    
+     2025-10-16    
 ====================
-* build/release
-876937c Bump Security String to 2025-09-01 [Michael Bestas]
+* device/lineage/sepolicy
+6810925 Revert "sepolicy: Label ro.telephony.use_old_mnc_mcc_format" [Michael Bestas]
 
 * frameworks/base
-6a3dfdd2f Revert "Fix biometric prompt appearing above shade" [Austin Delgado]
-8c151bb87 SystemUI: Add tile to show volume panel [stofstik]
-cadad497e base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+fce75b8a61a8 SystemUI: Add tile to show volume panel [stofstik]
+c3308ef77606 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+07f7fbdb8b56 Automatic translation import [LineageOS Infra]
 
 * hardware/qcom-caf/thermal-legacy-um
-cf6d0a5 thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
+2b5b80d thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
 
-* lineage/crowdin
-d676fb0 config: Remove 19.1/20.0 support [Michael Bestas]
+* lineage/hudson
+8c53562 Regenerate device dependency mappings [LineageOS Infra]
 
 * packages/apps/Aperture
-1b0c843 Aperture: No more jail escape [Luca Stefani]
-
-* packages/apps/Settings
-eb5c427d91f Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
-
-====================
-     2025-09-15    
-====================
-* frameworks/base
-fc38726ef Automatic translation import [LineageOS Infra]
-
-* lineage-sdk
-e622339 Automatic translation import [LineageOS Infra]
-
-* lineage/mirror
-c18e2f2 Updated to 14-Sep-2025 22:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-573ae0d wiki: fastboot reboot-recovery -> fastboot reboot recovery [LuK1337]
+c9f9831 Automatic translation import [LineageOS Infra]
 
 * packages/apps/Camelot
-34fd95b Automatic translation import [LineageOS Infra]
-
-* packages/apps/Catapult
-8f00af7 Automatic translation import [LineageOS Infra]
-
-* packages/apps/DeskClock
-cd9326b Automatic translation import [LineageOS Infra]
-
-* packages/apps/Dialer
-0f46e4b Automatic translation import [LineageOS Infra]
-
-* packages/apps/Etar
-26ac561 Automatic translation import [LineageOS Infra]
-
-* packages/apps/FMRadio
-5160538 Automatic translation import [LineageOS Infra]
-
-* packages/apps/FlipFlap
-dd49d55 Automatic translation import [LineageOS Infra]
+e8345aa Automatic translation import [LineageOS Infra]
 
 * packages/apps/Glimpse
-e774392 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Jelly
-6de7c84 Automatic translation import [LineageOS Infra]
+7d0417c Automatic translation import [LineageOS Infra]
 
 * packages/apps/LineageParts
-84552e0 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Messaging
-d65b136 Automatic translation import [LineageOS Infra]
+c18b998 Automatic translation import [LineageOS Infra]
 
 * packages/apps/Recorder
-1f9060b Automatic translation import [LineageOS Infra]
+ba7e033 Automatic translation import [LineageOS Infra]
 
 * packages/apps/Settings
-e54e5070a42 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Trebuchet
-7220bfa Automatic translation import [LineageOS Infra]
+c02c2c0d05c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 * packages/apps/Twelve
-e765cd7 Automatic translation import [LineageOS Infra]
+f6fa65c Automatic translation import [LineageOS Infra]
 
 * packages/apps/Updater
-be62451 Automatic translation import [LineageOS Infra]
-
-* packages/providers/DownloadProvider
-14a2956 Automatic translation import [LineageOS Infra]
+29babf1 Automatic translation import [LineageOS Infra]
 
 * packages/resources/devicesettings
-61a0716 Automatic translation import [LineageOS Infra]
+36c8f2e Automatic translation import [LineageOS Infra]
 
 * vendor/crowdin
-c6cea5e Automatic translation import [LineageOS Infra]
-
-* vendor/qcom/opensource/commonsys/fm
-0a042da Automatic translation import [LineageOS Infra]
+b2f3871 Automatic translation import [LineageOS Infra]
 
 ====================
-     2025-09-14    
+     2025-10-15    
 ====================
-* android
-e3c809a manifest: Remove sdm845 HAL guards [Michael Bestas]
+* frameworks/base
+143dbc051400 SystemUI: Fix large clock top margin with Smartspace disabled [LuK1337]
 
-* hardware/qcom/audio
-1b40af4 hal: Convert primary HAL to blueprint [Michael Bestas]
+* lineage/charter
+60e6839 device-support-requirements: Allow the usage of ssg I/O scheduler [ExtremeXT]
+cd37d09 device-support-requirements: Allow the usage of energy_aware and energy_step governors [ExtremeXT]
 
-* hardware/qcom/bt
-73ebd37 bt: Build with -Werror [Michael Bestas]
+* lineage/hudson
+8f71c76 Spacewar: Promote to 23.0 [BrainKub]
 
-* hardware/qcom/camera
-bdff615 camera: Remove unused libmmlib2d_interface [Michael Bestas]
+* lineage/mirror
+b838e95 Updated to 15-Oct-2025 10:01 UTC [Tim Schumacher]
 
-* hardware/qcom/sdm845/display
-0d74c81 display: histogram: Add missing epoll_event.h include [razorloves]
-
-====================
-     2025-09-13    
-====================
-====================
-     2025-09-12    
-====================
-* hardware/libhardware
-dacf02a Avoid log fatal when converting between pcm_format and audio_format_t. [jiabin]
-
-* hardware/qcom/sdm845/gps
-71438e3 Add hardware/qcom/sdm845/gps soong namespace [ChengYou Ho]
-
-* packages/inputmethods/LatinIME
-b1b807e Add Turkish F layout [Berkay Yıldırım]
+* lineage/wiki
+ec0106cc devices: Spacewar: Promote to 23.0 [BrainKub]
 
 ====================
-     2025-09-11    
+     2025-10-14    
 ====================
+* frameworks/av
+5e79d5ed00 camera: bypass `isSensorPixelModeConsistent` check for priv-app camera apps [Giovanni Ricca]
+
+* lineage/hudson
+a91a243 Regenerate device dependency mappings [LineageOS Infra]
+1fb3447 tucana: Promote to 23.0 [Alexander Baransky]
+
+* lineage/wiki
+b22a2046 devices: tucana: Promote to 23.0 [Alexander Baransky]
+
+====================
+     2025-10-13    
+====================
+* frameworks/base
+dbc227e71b8a SystemUI: fix Keyguard slice [Fred Underwood]
+30a764876690 SystemUI: Fix burn-in translations not applying to keyguard slices [Andy CrossGate Yan]
+
+====================
+     2025-10-12    
+====================
+* hardware/lineage/interfaces
+a3b99b3 LiveDisplay: sysfs: Add soong configurable HBM path [Marc Bourgoin]
+
+* lineage/hudson
+77a4942 despite Google's best efforts [Nolen Johnson]
+
+* lineage/scripts
+2619421 device-deps-regenerator: Add lineage-23.0 branch [LuK1337]
+
+* lineage/website
+03fba08 LineageOS 23.0 [Nolen Johnson]
+
+* lineage/wiki
+20218fff wiki: Initial promotions to 23.0 [LuK1337]
+cd45b0f1 LineageOS 23.0 [Nolen Johnson]
+e7f718e1 wiki: Drop LineageOS 21.0 [LuK1337]
+cb4b17e8 wiki: Use `ab_copy_partitions` for aston [LuK1337]
+
+* packages/apps/Aperture
+482abce Aperture: Configure camera after we have camera permissions [Sebastiano Barezzi]
+90c6cd2 Aperture: Fix RAW capture when permissions are granted after app launch [Sebastiano Barezzi]
+
+====================
+     2025-10-11    
+====================
+* frameworks/base
+abae1af92e9a services: core: wfd: extend check for qualcomm wfd jar [Alexander Martinz]
+
+* lineage/wiki
+cef5f928 wiki: borneo: Update maintainers [Deivid21]
+
+* tools/extract-utils
+ce77849 extract-utils: Make it REUSE compatible [Michael Bestas]
+c7e9116 extract-utils: Drop LineageOS copyright years [Michael Bestas]
+
 * vendor/lineage
-a5111a0 vars: Point bluejay to archive.org [Michael Bestas]
+79db5631 apns: Update for CTM(Macau) [Flicker372]
 
 ====================
-     2025-09-10    
+     2025-10-10    
 ====================
-* hardware/qcom/sm8150/display
-c13de98 Convert remaining Android.mk to blueprint [Michael Bestas]
-
-* hardware/qcom/sm8150/gps
-c102eca Remove obsolete os_pickup.{bp,mk} [Michael Bestas]
+* packages/resources/devicesettings
+24170ff devicesettings: Import doze brightness strings [basamaryan]
 
