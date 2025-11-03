@@ -1,133 +1,104 @@
 ====================
-     2025-10-16    
+     2025-11-03    
 ====================
 * device/lineage/sepolicy
-6810925 Revert "sepolicy: Label ro.telephony.use_old_mnc_mcc_format" [Michael Bestas]
+c0a6ee1 qcom: hal_soter -> vendor_hal_soter [LuK1337]
+8b89a12 qcom: Allow platform_app to use Soter HAL [dianlujitao]
+
+* device/qcom/sepolicy-legacy-um
+e6959abb fixup! legacy: hal_soter -> vendor_hal_soter [LuK1337]
+57d39afa legacy: hal_soter -> vendor_hal_soter [LuK1337]
+c5a86cf7 sepolicy: Move hal_soter attribute to public [LuK1337]
+
+* device/qcom/sepolicy_vndr/legacy-um
+98784484c legacy: hal_soter -> vendor_hal_soter [LuK1337]
 
 * frameworks/base
-fce75b8a61a8 SystemUI: Add tile to show volume panel [stofstik]
-c3308ef77606 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
-07f7fbdb8b56 Automatic translation import [LineageOS Infra]
-
-* hardware/qcom-caf/thermal-legacy-um
-2b5b80d thermal: Reset msmnile configs to LA.UM.9.1.r1 [Nick Reuter]
+c034ede4b486 SystemUI: Add tile to show volume panel [stofstik]
+27b2c442c9c5 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
 * lineage/hudson
-8c53562 Regenerate device dependency mappings [LineageOS Infra]
+89aa388 bump gauguin to 23.0 [Hridaya Prajapati]
+a902755 dodge joins the 23.0 race [chandu078]
 
-* packages/apps/Aperture
-c9f9831 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Camelot
-e8345aa Automatic translation import [LineageOS Infra]
-
-* packages/apps/Glimpse
-7d0417c Automatic translation import [LineageOS Infra]
-
-* packages/apps/LineageParts
-c18b998 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Recorder
-ba7e033 Automatic translation import [LineageOS Infra]
+* lineage/wiki
+dff52d19 aston: Add eSIM quirk [Bruno Martins]
+01428583 wiki: Promote gauguin to 23.0 [Hridaya Prajapati]
+36cd9b4a wiki: Add a note about signature verification [Inhishonor]
+ff9f210c wiki: Fix indentation in install guide [Inhishonor]
+05418353 salami/waffle/dodge: Add eSIM quirk [Bruno Martins]
+e2e2162d wiki: Add OnePlus 13 [chandu078]
 
 * packages/apps/Settings
-c02c2c0d05c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
-
-* packages/apps/Twelve
-f6fa65c Automatic translation import [LineageOS Infra]
-
-* packages/apps/Updater
-29babf1 Automatic translation import [LineageOS Infra]
-
-* packages/resources/devicesettings
-36c8f2e Automatic translation import [LineageOS Infra]
-
-* vendor/crowdin
-b2f3871 Automatic translation import [LineageOS Infra]
+7d3af285707 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-10-15    
+     2025-11-02    
 ====================
-* frameworks/base
-143dbc051400 SystemUI: Fix large clock top margin with Smartspace disabled [LuK1337]
-
-* lineage/charter
-60e6839 device-support-requirements: Allow the usage of ssg I/O scheduler [ExtremeXT]
-cd37d09 device-support-requirements: Allow the usage of energy_aware and energy_step governors [ExtremeXT]
-
-* lineage/hudson
-8f71c76 Spacewar: Promote to 23.0 [BrainKub]
-
-* lineage/mirror
-b838e95 Updated to 15-Oct-2025 10:01 UTC [Tim Schumacher]
+* lineage-sdk
+d518e8d4 Automatic translation import [LineageOS Infra]
 
 * lineage/wiki
-ec0106cc devices: Spacewar: Promote to 23.0 [BrainKub]
-
-====================
-     2025-10-14    
-====================
-* frameworks/av
-5e79d5ed00 camera: bypass `isSensorPixelModeConsistent` check for priv-app camera apps [Giovanni Ricca]
-
-* lineage/hudson
-a91a243 Regenerate device dependency mappings [LineageOS Infra]
-1fb3447 tucana: Promote to 23.0 [Alexander Baransky]
-
-* lineage/wiki
-b22a2046 devices: tucana: Promote to 23.0 [Alexander Baransky]
-
-====================
-     2025-10-13    
-====================
-* frameworks/base
-dbc227e71b8a SystemUI: fix Keyguard slice [Fred Underwood]
-30a764876690 SystemUI: Fix burn-in translations not applying to keyguard slices [Andy CrossGate Yan]
-
-====================
-     2025-10-12    
-====================
-* hardware/lineage/interfaces
-a3b99b3 LiveDisplay: sysfs: Add soong configurable HBM path [Marc Bourgoin]
-
-* lineage/hudson
-77a4942 despite Google's best efforts [Nolen Johnson]
-
-* lineage/scripts
-2619421 device-deps-regenerator: Add lineage-23.0 branch [LuK1337]
-
-* lineage/website
-03fba08 LineageOS 23.0 [Nolen Johnson]
-
-* lineage/wiki
-20218fff wiki: Initial promotions to 23.0 [LuK1337]
-cd45b0f1 LineageOS 23.0 [Nolen Johnson]
-e7f718e1 wiki: Drop LineageOS 21.0 [LuK1337]
-cb4b17e8 wiki: Use `ab_copy_partitions` for aston [LuK1337]
+cee05e65 wiki: Fix bluejay's screen refresh rate [LuK1337]
 
 * packages/apps/Aperture
-482abce Aperture: Configure camera after we have camera permissions [Sebastiano Barezzi]
-90c6cd2 Aperture: Fix RAW capture when permissions are granted after app launch [Sebastiano Barezzi]
+998f355 Automatic translation import [LineageOS Infra]
 
-====================
-     2025-10-11    
-====================
-* frameworks/base
-abae1af92e9a services: core: wfd: extend check for qualcomm wfd jar [Alexander Martinz]
+* packages/apps/Glimpse
+6a365d1 Automatic translation import [LineageOS Infra]
 
-* lineage/wiki
-cef5f928 wiki: borneo: Update maintainers [Deivid21]
+* packages/apps/Twelve
+516d1f4 Automatic translation import [LineageOS Infra]
+
+* packages/inputmethods/LatinIME
+5253c60f1 Automatic translation import [LineageOS Infra]
+
+* packages/resources/devicesettings
+28a3378 Automatic translation import [LineageOS Infra]
 
 * tools/extract-utils
-ce77849 extract-utils: Make it REUSE compatible [Michael Bestas]
-c7e9116 extract-utils: Drop LineageOS copyright years [Michael Bestas]
+4e62c34 extract_utils: sort-blobs-list.py: Use a single regex to get source name [Sebastiano Barezzi]
+ceaf573 extract_utils: sort-blobs-list.py: Handle sha1sum argument [Sebastiano Barezzi]
+4afac1d extract_utils: sort-blobs-list.py: Fix lint warning [Sebastiano Barezzi]
 
-* vendor/lineage
-79db5631 apns: Update for CTM(Macau) [Flicker372]
+* vendor/crowdin
+208c135 Automatic translation import [LineageOS Infra]
 
 ====================
-     2025-10-10    
+     2025-11-01    
 ====================
-* packages/resources/devicesettings
-24170ff devicesettings: Import doze brightness strings [basamaryan]
+* lineage/hudson
+5bdec50 Regenerate device dependency mappings [LineageOS Infra]
+
+====================
+     2025-10-31    
+====================
+====================
+     2025-10-30    
+====================
+* hardware/qcom-caf/thermal-legacy-um
+03845e4 thermal-hal: Update skin temperature threshold for kona [Edwin Moquete]
+0878137 thermal-hal: Revert "Add tsens,bcl configuration for kona" [armdebug]
+
+====================
+     2025-10-29    
+====================
+====================
+     2025-10-28    
+====================
+* build/soong
+cff28f536 Revert "Clear as much of cc.Module as possible after GenerateBuildActions" [Colin Cross]
+
+* lineage/hudson
+8b59fe9 Regenerate device dependency mappings [LineageOS Infra]
+
+* lineage/mirror
+ba1a243 Updated to 27-Oct-2025 23:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+5d68c6b8 wiki: moto-sm6225: Update maintainers & models [Deivid21]
+9bcfeed7 wiki: Add eSIM peripheral for bangkk, fogo and fogos [LuK1337]
+
+* vendor/qcom/opensource/vibrator
+a362998 vibrator: Add support for aw-haptic-hv [Arian]
 
