@@ -1,6 +1,15 @@
 {
   "response": [
     {
+      "datetime": 1763303932,
+      "filename": "lineage-23.0-20251116-UNOFFICIAL-raphael.zip",
+      "id": "de9c856b947b63936e830005aa1e8205ac1c191e545420a0540b5b598bc8e982",
+      "romtype": "UNOFFICIAL",
+      "size": 1359120298,
+      "url": "https://github.com/paranoid-raphael/ota/releases/download/23.0-raphael-de9c856b/lineage-23.0-20251116-UNOFFICIAL-raphael.zip",
+      "version": "23.0"
+    },
+    {
       "datetime": 1762159671,
       "filename": "lineage-23.0-20251103-UNOFFICIAL-raphael.zip",
       "id": "1912c8c9be8adefef65245862258da1c15eaecbdbfd39dabca130d3a023e7609",
@@ -17,15 +26,6 @@
       "size": 1360995877,
       "url": "https://github.com/paranoid-raphael/ota/releases/download/23.0-raphael-c3a1e084/lineage-23.0-20251016-UNOFFICIAL-raphael.zip",
       "version": "23.0"
-    },
-    {
-      "datetime": 1758033927,
-      "filename": "lineage-22.2-20250916-UNOFFICIAL-raphael.zip",
-      "id": "2c6375952e2b24ea81413bee0de424fa06445c06eb302218f0d2a79f19ce17f2",
-      "romtype": "UNOFFICIAL",
-      "size": 1316000327,
-      "url": "https://github.com/paranoid-raphael/ota/releases/download/22.2-raphael-2c637595/lineage-22.2-20250916-UNOFFICIAL-raphael.zip",
-      "version": "22.2"
     }
   ]
 }

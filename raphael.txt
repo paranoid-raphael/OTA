@@ -1,104 +1,80 @@
 ====================
-     2025-11-03    
+     2025-11-16    
 ====================
-* device/lineage/sepolicy
-c0a6ee1 qcom: hal_soter -> vendor_hal_soter [LuK1337]
-8b89a12 qcom: Allow platform_app to use Soter HAL [dianlujitao]
+* lineage/scripts
+b361284 scripts: add developer tools [Cosmin Tanislav]
 
-* device/qcom/sepolicy-legacy-um
-e6959abb fixup! legacy: hal_soter -> vendor_hal_soter [LuK1337]
-57d39afa legacy: hal_soter -> vendor_hal_soter [LuK1337]
-c5a86cf7 sepolicy: Move hal_soter attribute to public [LuK1337]
-
-* device/qcom/sepolicy_vndr/legacy-um
-98784484c legacy: hal_soter -> vendor_hal_soter [LuK1337]
-
+====================
+     2025-11-15    
+====================
 * frameworks/base
-c034ede4b486 SystemUI: Add tile to show volume panel [stofstik]
-27b2c442c9c5 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
-
-* lineage/hudson
-89aa388 bump gauguin to 23.0 [Hridaya Prajapati]
-a902755 dodge joins the 23.0 race [chandu078]
-
-* lineage/wiki
-dff52d19 aston: Add eSIM quirk [Bruno Martins]
-01428583 wiki: Promote gauguin to 23.0 [Hridaya Prajapati]
-36cd9b4a wiki: Add a note about signature verification [Inhishonor]
-ff9f210c wiki: Fix indentation in install guide [Inhishonor]
-05418353 salami/waffle/dodge: Add eSIM quirk [Bruno Martins]
-e2e2162d wiki: Add OnePlus 13 [chandu078]
+986583316a3e SystemUI: Add tile to show volume panel [stofstik]
+aa994e78a87b base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
 * packages/apps/Settings
-7d3af285707 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+9df4cd3c83c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-11-02    
+     2025-11-14    
 ====================
-* lineage-sdk
-d518e8d4 Automatic translation import [LineageOS Infra]
-
-* lineage/wiki
-cee05e65 wiki: Fix bluejay's screen refresh rate [LuK1337]
-
-* packages/apps/Aperture
-998f355 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Glimpse
-6a365d1 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Twelve
-516d1f4 Automatic translation import [LineageOS Infra]
-
-* packages/inputmethods/LatinIME
-5253c60f1 Automatic translation import [LineageOS Infra]
-
-* packages/resources/devicesettings
-28a3378 Automatic translation import [LineageOS Infra]
-
-* tools/extract-utils
-4e62c34 extract_utils: sort-blobs-list.py: Use a single regex to get source name [Sebastiano Barezzi]
-ceaf573 extract_utils: sort-blobs-list.py: Handle sha1sum argument [Sebastiano Barezzi]
-4afac1d extract_utils: sort-blobs-list.py: Fix lint warning [Sebastiano Barezzi]
-
-* vendor/crowdin
-208c135 Automatic translation import [LineageOS Infra]
+* vendor/apn
+060d567 Add WE EG [keosh1]
 
 ====================
-     2025-11-01    
+     2025-11-13    
+====================
+* android
+afc3dd0 manifest: Unfork system_bpf [Thomas Turner]
+
+====================
+     2025-11-12    
 ====================
 * lineage/hudson
-5bdec50 Regenerate device dependency mappings [LineageOS Infra]
-
-====================
-     2025-10-31    
-====================
-====================
-     2025-10-30    
-====================
-* hardware/qcom-caf/thermal-legacy-um
-03845e4 thermal-hal: Update skin temperature threshold for kona [Edwin Moquete]
-0878137 thermal-hal: Revert "Add tsens,bcl configuration for kona" [armdebug]
-
-====================
-     2025-10-29    
-====================
-====================
-     2025-10-28    
-====================
-* build/soong
-cff28f536 Revert "Clear as much of cc.Module as possible after GenerateBuildActions" [Colin Cross]
-
-* lineage/hudson
-8b59fe9 Regenerate device dependency mappings [LineageOS Infra]
+362cfeb Two-face [Andrey Sprynga]
+c529ac8 Regenerate device dependency mappings [LineageOS Infra]
 
 * lineage/mirror
-ba1a243 Updated to 27-Oct-2025 23:01 UTC [Tim Schumacher]
+e7ad4d2 Updated lineage-minimal to 12-Nov-2025 11:02 UTC [Tim Schumacher]
+136c0a7 Updated aosp-minimal to 11-Nov-2025 23:22 UTC [Tim Schumacher]
+f918fe2 aosp-minimal: Include release branches [Tim Schumacher]
+d7ea5e6 Updated to 11-Nov-2025 23:01 UTC [Tim Schumacher]
 
 * lineage/wiki
-5d68c6b8 wiki: moto-sm6225: Update maintainers & models [Deivid21]
-9bcfeed7 wiki: Add eSIM peripheral for bangkk, fogo and fogos [LuK1337]
+4567d9f1 wiki: Add Changing screen resolution quirk for some devices [Andrey Sprynga]
+2bccf08d wiki: Add Nubia X [Andrey Sprynga]
 
-* vendor/qcom/opensource/vibrator
-a362998 vibrator: Add support for aw-haptic-hv [Arian]
+* vendor/lineage
+5d460828 config: tablet: Bring back `android.software.freeform_window_management` feature [Yumi Yukimura]
+00d7786f lineage: Enable R8 code shrinking and optimizations [Jared Duke]
+
+====================
+     2025-11-11    
+====================
+* android
+06332e0 manifest: Track vendor/apn [LuK1337]
+
+* lineage/wiki
+0c60a8a6 wiki: Rewrite extracting proprietary blobs page [Hex]
+
+* vendor/apn
+2341ff2 Add a helper to pretty format apn xmls and run it [Arian]
+ebf7f73 Initial commit [LuK1337]
+
+====================
+     2025-11-10    
+====================
+* frameworks/base
+2dc97cf3d623 SystemUI: Hide HEVC screen recording when no HW codec is available [Ido Ben-Hur]
+
+* lineage/mirror
+7556153 Updated to 09-Nov-2025 23:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+0819dc7c pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported [Yumi Yukimura]
+
+* system/core
+914a773aa core: Fix host_init_verifier for devices with overriding services [Alexander Koskovich]
+
+* vendor/lineage
+3d4d3841 Move APNs data to vendor/apn [LuK1337]
 
