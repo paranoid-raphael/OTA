@@ -1,109 +1,78 @@
 ====================
-     2025-09-09    
+     2025-11-16    
+====================
+* lineage/scripts
+b361284 scripts: add developer tools [Cosmin Tanislav]
+
+====================
+     2025-11-15    
 ====================
 * frameworks/base
-b6c49c3a7 SystemUI: Add tile to show volume panel [stofstik]
-50076646d base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+986583316a3e SystemUI: Add tile to show volume panel [stofstik]
+aa994e78a87b base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 
 * packages/apps/Settings
-0fe82bb7197 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+9df4cd3c83c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
 
 ====================
-     2025-09-08    
+     2025-11-14    
 ====================
-* frameworks/base
-9fbbf5a11 fixup! power: Explicitly check for silent ringtone [programminghoch10]
-
-* lineage/mirror
-8896d20 Updated lineage-minimal to 07-Sep-2025 22:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-0aaa61c wiki: Remove `recovery_boot` from salami [LuK1337]
-
-* vendor/lineage
-18c7a31 apns: Add BICS [dianlujitao]
+* vendor/apn
+060d567 Add WE EG [keosh1]
 
 ====================
-     2025-09-07    
+     2025-11-13    
 ====================
 * android
-7680485 manifest: September 2025 Security Update [Michael Bestas]
+afc3dd0 manifest: Unfork system_bpf [Thomas Turner]
 
-* hardware/qcom-caf/msm8998/audio
-717b078 hal: audio_extn: Add argument to pthread routines [danielml]
-
-* hardware/qcom-caf/sdm845/audio
-d5ad5c1 hal: audio_extn: Add argument to pthread routines [danielml]
-
+====================
+     2025-11-12    
+====================
 * lineage/hudson
-10f45e6 Finally, waffles are on the breakfast menu for Hudson builds [chandu078]
+362cfeb Two-face [Andrey Sprynga]
+c529ac8 Regenerate device dependency mappings [LineageOS Infra]
+
+* lineage/mirror
+e7ad4d2 Updated lineage-minimal to 12-Nov-2025 11:02 UTC [Tim Schumacher]
+136c0a7 Updated aosp-minimal to 11-Nov-2025 23:22 UTC [Tim Schumacher]
+f918fe2 aosp-minimal: Include release branches [Tim Schumacher]
+d7ea5e6 Updated to 11-Nov-2025 23:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+4567d9f1 wiki: Add Changing screen resolution quirk for some devices [Andrey Sprynga]
+2bccf08d wiki: Add Nubia X [Andrey Sprynga]
+
+* vendor/lineage
+5d460828 config: tablet: Bring back `android.software.freeform_window_management` feature [Yumi Yukimura]
+00d7786f lineage: Enable R8 code shrinking and optimizations [Jared Duke]
 
 ====================
-     2025-09-06    
+     2025-11-11    
 ====================
-* hardware/qcom-caf/common
-4d5665c qcom: Add msm8998 audio soong config [Michael Bestas]
-
-* lineage/crowdin
-cf1accb config: Add hardware/oplus/Pen [LuK1337]
+* vendor/apn
+2341ff2 Add a helper to pretty format apn xmls and run it [Arian]
+ebf7f73 Initial commit [LuK1337]
 
 ====================
-     2025-09-05    
+     2025-11-10    
 ====================
-====================
-     2025-09-04    
-====================
-* packages/apps/Aperture
-163d4bb Aperture: Fix zoom level bar alignment in QR mode [LuK1337]
+* android
+06332e0 manifest: Track vendor/apn [LuK1337]
 
-====================
-     2025-09-03    
-====================
-* art
-2bff684 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* frameworks/base
+2dc97cf3d623 SystemUI: Hide HEVC screen recording when no HW codec is available [Ido Ben-Hur]
 
-* build/make
-f9262a9 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* lineage/mirror
+7556153 Updated to 09-Nov-2025 23:01 UTC [Tim Schumacher]
 
-* frameworks/av
-2ff01e6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* lineage/wiki
+0c60a8a6 wiki: Rewrite extracting proprietary blobs page [Hex]
+0819dc7c pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported [Yumi Yukimura]
 
-* frameworks/native
-a7f9cc6 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* system/core
+914a773aa core: Fix host_init_verifier for devices with overriding services [Alexander Koskovich]
 
-* frameworks/opt/telephony
-c3571e7 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/Contacts
-29de9bf Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/DocumentsUI
-dff9363 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/ManagedProvisioning
-5d236fc Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/apps/Settings
-3467f15108f Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/modules/Bluetooth
-b6a6b8a Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/modules/CellBroadcastService
-ea7970b Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/modules/IntentResolver
-ac921be Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/modules/Permission
-f9690ca Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/modules/Wifi
-d641724 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/providers/MediaProvider
-47422d5 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
-
-* packages/services/Telephony
-85f9d70 Merge tag 'android-security-15.0.0_r10' into staging/lineage-22.2_merge-android-security-15.0.0_r10 [Michael Bestas]
+* vendor/lineage
+3d4d3841 Move APNs data to vendor/apn [LuK1337]
 
