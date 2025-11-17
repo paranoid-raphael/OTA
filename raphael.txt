@@ -1,18 +1,54 @@
 ====================
+     2025-11-17    
+====================
+* frameworks/base
+5376ff8c5e3f SystemUI: Add tile to show volume panel [stofstik]
+a111e7a6290c base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+
+* packages/apps/Settings
+8a79a7652b3 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+
+====================
      2025-11-16    
 ====================
-* lineage/scripts
-b361284 scripts: add developer tools [Cosmin Tanislav]
+* hardware/interfaces
+2e4a41b1d9 audio: Allow opting out of speaker_layout_channel_mask field [LuK1337]
+
+* system/media
+e1120728 audio: Allow opting out of speaker_layout_channel_mask field [LuK1337]
 
 ====================
      2025-11-15    
 ====================
 * frameworks/base
-986583316a3e SystemUI: Add tile to show volume panel [stofstik]
-aa994e78a87b base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+f0964915f599 Automatic translation import [LineageOS Infra]
 
-* packages/apps/Settings
-9df4cd3c83c Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+* lineage-sdk
+39cff88b Automatic translation import [LineageOS Infra]
+
+* packages/apps/Aperture
+825b7f6 Automatic translation import [LineageOS Infra]
+
+* packages/apps/DeskClock
+8987c256c Automatic translation import [LineageOS Infra]
+
+* packages/apps/Jelly
+e7bc9a2 Automatic translation import [LineageOS Infra]
+
+* packages/apps/LineageParts
+91c1b40 Automatic translation import [LineageOS Infra]
+
+* packages/apps/Twelve
+6b0152d Automatic translation import [LineageOS Infra]
+
+* packages/apps/Updater
+4150e2f Automatic translation import [LineageOS Infra]
+
+* packages/resources/devicesettings
+15f3221 Automatic translation import [LineageOS Infra]
+
+* vendor/crowdin
+93da2a7 Automatic translation import [LineageOS Infra]
 
 ====================
      2025-11-14    
@@ -25,6 +61,9 @@ aa994e78a87b base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
 ====================
 * android
 afc3dd0 manifest: Unfork system_bpf [Thomas Turner]
+
+* packages/apps/Settings
+f08363f4549 fixup! Settings: Add toggle for heads up notifications [Michael Bestas]
 
 ====================
      2025-11-12    
@@ -53,28 +92,7 @@ d7ea5e6 Updated to 11-Nov-2025 23:01 UTC [Tim Schumacher]
 * android
 06332e0 manifest: Track vendor/apn [LuK1337]
 
-* lineage/wiki
-0c60a8a6 wiki: Rewrite extracting proprietary blobs page [Hex]
-
 * vendor/apn
 2341ff2 Add a helper to pretty format apn xmls and run it [Arian]
 ebf7f73 Initial commit [LuK1337]
-
-====================
-     2025-11-10    
-====================
-* frameworks/base
-2dc97cf3d623 SystemUI: Hide HEVC screen recording when no HW codec is available [Ido Ben-Hur]
-
-* lineage/mirror
-7556153 Updated to 09-Nov-2025 23:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-0819dc7c pages: {libvirt-qemu,utm}: LineageOS 23.0 is supported [Yumi Yukimura]
-
-* system/core
-914a773aa core: Fix host_init_verifier for devices with overriding services [Alexander Koskovich]
-
-* vendor/lineage
-3d4d3841 Move APNs data to vendor/apn [LuK1337]
 
